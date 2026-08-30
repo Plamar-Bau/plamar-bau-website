@@ -308,10 +308,21 @@ export default function ContactForm() {
   );
 }
 
-function Label({ children }: { children: React.ReactNode }) {
+function Label({
+  children,
+  required,
+}: {
+  children: React.ReactNode;
+  required?: boolean;
+}) {
   return (
     <label className="mb-1.5 block font-heading text-sm font-semibold text-brand-dark">
       {children}
+      {required && (
+        <span className="ml-0.5 text-red-500" aria-hidden="true">
+          *
+        </span>
+      )}
     </label>
   );
 }
@@ -331,11 +342,12 @@ function Field({
 }) {
   return (
     <div>
-      <Label>{label}</Label>
+      <Label required={required}>{label}</Label>
       <input
         type={type}
         name={name}
         required={required}
+        aria-required={required}
         placeholder={placeholder}
         className="w-full rounded-xl border border-line bg-white px-4 py-3 text-slate-800 outline-none transition focus:border-brand focus:ring-2 focus:ring-brand/20"
       />
