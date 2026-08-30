@@ -58,6 +58,21 @@ export default function ReferenzenPage() {
       <main className="flex-1">
         {/* Hero */}
         <section className="relative overflow-hidden bg-brand-darker text-white">
+          <img
+            src="/images/ref-hero.jpg"
+            alt=""
+            aria-hidden="true"
+            className="absolute inset-0 h-full w-full object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-brand-darker via-brand-darker/92 to-brand-darker/70" />
+          <div
+            className="absolute inset-0 opacity-[0.10]"
+            style={{
+              backgroundImage:
+                "linear-gradient(rgba(255,255,255,.6) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.6) 1px, transparent 1px)",
+              backgroundSize: "44px 44px",
+            }}
+          />
           <div className="absolute -right-24 -top-24 h-96 w-96 rounded-full bg-brand/40 blur-3xl" />
           <div className="absolute -bottom-32 -left-20 h-96 w-96 rounded-full bg-accent/20 blur-3xl" />
           <div className="relative mx-auto max-w-7xl px-6 py-16 md:py-24">
