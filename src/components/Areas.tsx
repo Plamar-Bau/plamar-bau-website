@@ -42,12 +42,14 @@ export default function Areas() {
           </p>
         </Reveal>
 
-        <div className="mx-auto mt-12 grid max-w-4xl grid-cols-2 gap-4 sm:grid-cols-4">
+        <div className="mx-auto mt-12 grid max-w-4xl grid-cols-2 gap-3 sm:grid-cols-4 sm:gap-4">
           {areas.map((a, i) => (
-            <Reveal key={a} delay={(i % 4) * 70}>
-              <div className="flex items-center gap-2.5 rounded-xl border border-white/15 bg-white/10 px-4 py-4 backdrop-blur-sm transition hover:border-accent/50 hover:bg-white/15">
-                <MapPin className="h-5 w-5 shrink-0 text-accent" />
-                <span className="font-heading font-semibold text-white">
+            <Reveal key={a} delay={(i % 4) * 70} className="h-full">
+              <div className="group flex h-full flex-col items-center justify-center gap-3 rounded-2xl border border-white/15 bg-white/[0.07] px-3 py-6 text-center backdrop-blur-sm transition duration-300 hover:-translate-y-1 hover:border-accent/60 hover:bg-white/[0.12] hover:shadow-[0_14px_34px_rgba(0,0,0,0.28)]">
+                <span className="flex h-10 w-10 items-center justify-center rounded-full bg-accent/15 text-accent transition duration-300 group-hover:bg-accent/25">
+                  <MapPin className="h-5 w-5" />
+                </span>
+                <span className="font-heading text-sm font-semibold leading-tight text-white sm:text-[15px]">
                   {a}
                 </span>
               </div>
