@@ -21,21 +21,21 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50">
       {/* Top utility bar */}
-      <div className="hidden bg-brand-dark text-white md:block">
-        <div className="mx-auto flex max-w-7xl items-center justify-end gap-6 px-6 py-2 text-sm">
+      <div className="bg-brand-dark text-white">
+        <div className="mx-auto flex max-w-7xl items-center justify-center gap-2.5 px-4 py-2 text-xs sm:justify-end sm:gap-6 sm:px-6 sm:text-sm">
           <a
             href={company.emailHref}
-            className="flex items-center gap-2 transition hover:text-accent"
+            className="flex items-center gap-1.5 transition hover:text-accent sm:gap-2"
           >
-            <Mail className="h-4 w-4" />
+            <Mail className="h-3.5 w-3.5 shrink-0 sm:h-4 sm:w-4" />
             {company.email}
           </a>
-          <span className="h-4 w-px bg-white/25" />
+          <span className="h-3.5 w-px bg-white/25 sm:h-4" />
           <a
             href={company.phoneHref}
-            className="flex items-center gap-2 font-semibold transition hover:text-accent"
+            className="flex items-center gap-1.5 font-semibold transition hover:text-accent sm:gap-2"
           >
-            <Phone className="h-4 w-4" />
+            <Phone className="h-3.5 w-3.5 shrink-0 sm:h-4 sm:w-4" />
             {company.phone}
           </a>
         </div>
