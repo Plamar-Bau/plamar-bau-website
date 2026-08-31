@@ -70,52 +70,85 @@ export const metadata: Metadata = {
   },
 };
 
+const orgId = `${company.url}/#organization`;
+const siteId = `${company.url}/#website`;
+const personId = `${company.url}/#gruender`;
+
 const orgJsonLd = {
   "@context": "https://schema.org",
-  "@type": "GeneralContractor",
-  "@id": `${company.url}/#organization`,
-  name: "PLAMAR-BAU",
-  legalName: company.legalName,
-  url: company.url,
-  telephone: company.phoneIntl,
-  email: company.email,
-  image: `${company.url}/images/hero-home.jpg`,
-  logo: `${company.url}/icon.svg`,
-  address: {
-    "@type": "PostalAddress",
-    streetAddress: company.streetAddress,
-    postalCode: company.postalCode,
-    addressLocality: company.locality,
-    addressCountry: company.countryCode,
-  },
-  areaServed: company.areasServed.map((name) => ({ "@type": "City", name })),
-  founder: { "@type": "Person", name: company.managingDirector },
-  knowsAbout: [
-    "Gerüstbau",
-    "Sanierung",
-    "Komplettsanierung",
-    "Elektroinstallation",
-    "Heizung Wasser Sanitär",
-    "Innenausbau",
-    "Fassade",
-    "Dach",
-    "Badsanierung",
-  ],
-  hasOfferCatalog: {
-    "@type": "OfferCatalog",
-    name: "Leistungen von PLAMAR-BAU",
-    itemListElement: services.map((s) => ({
-      "@type": "Offer",
-      itemOffered: {
-        "@type": "Service",
-        name: s.title,
-        description: s.tagline,
-        url: `${company.url}/leistungen/${s.slug}`,
-        provider: { "@id": `${company.url}/#organization` },
-        areaServed: company.region,
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": siteId,
+      url: company.url,
+      name: "PLAMAR-BAU",
+      inLanguage: "de-DE",
+      publisher: { "@id": orgId },
+    },
+    {
+      "@type": ["GeneralContractor", "LocalBusiness"],
+      "@id": orgId,
+      name: "PLAMAR-BAU",
+      legalName: company.legalName,
+      url: company.url,
+      telephone: company.phoneIntl,
+      email: company.email,
+      image: `${company.url}/images/hero-home.jpg`,
+      logo: `${company.url}/icon.svg`,
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: company.streetAddress,
+        postalCode: company.postalCode,
+        addressLocality: company.locality,
+        addressCountry: company.countryCode,
       },
-    })),
-  },
+      // Näherungskoordinaten von Uhingen; bei Bedarf auf die genaue
+      // Adresse verfeinern.
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: 48.7064,
+        longitude: 9.5836,
+      },
+      hasMap: `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
+        `${company.streetAddress}, ${company.postalCode} ${company.locality}`
+      )}`,
+      areaServed: company.areasServed.map((name) => ({ "@type": "City", name })),
+      founder: { "@id": personId },
+      knowsAbout: [
+        "Gerüstbau",
+        "Sanierung",
+        "Komplettsanierung",
+        "Elektroinstallation",
+        "Heizung Wasser Sanitär",
+        "Innenausbau",
+        "Fassade",
+        "Dach",
+        "Badsanierung",
+      ],
+      hasOfferCatalog: {
+        "@type": "OfferCatalog",
+        name: "Leistungen von PLAMAR-BAU",
+        itemListElement: services.map((s) => ({
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: s.title,
+            description: s.tagline,
+            url: `${company.url}/leistungen/${s.slug}`,
+            provider: { "@id": orgId },
+            areaServed: company.region,
+          },
+        })),
+      },
+    },
+    {
+      "@type": "Person",
+      "@id": personId,
+      name: company.managingDirector,
+      jobTitle: "Geschäftsführer",
+      worksFor: { "@id": orgId },
+    },
+  ],
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

@@ -25,6 +25,15 @@ export const metadata: Metadata = {
   title: "Über uns | PLAMAR-BAU Bauunternehmung UG in Uhingen",
   description:
     "Lernen Sie PLAMAR-BAU kennen: ein Bauunternehmen aus Uhingen mit Leidenschaft fürs Handwerk. Gerüstbau, Sanierung und Ausbau, zuverlässig, ehrlich und aus einer Hand.",
+  alternates: { canonical: "/ueber-uns" },
+  openGraph: {
+    title: "Über uns | PLAMAR-BAU aus Uhingen",
+    description:
+      "Ein Bauunternehmen aus Uhingen mit Leidenschaft fürs Handwerk: Gerüstbau, Sanierung und Ausbau aus einer Hand.",
+    type: "website",
+    url: "/ueber-uns",
+    images: ["/images/ueber-hero.jpg"],
+  },
 };
 
 const values = [

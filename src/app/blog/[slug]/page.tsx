@@ -30,14 +30,28 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const { slug } = await params;
   const post = getPost(slug);
   if (!post) return { title: "Beitrag nicht gefunden | PLAMAR" };
+  const url = `/blog/${post.slug}`;
   return {
     title: `${post.title} | PLAMAR Blog`,
     description: post.excerpt,
     keywords: post.tags,
+    alternates: { canonical: url },
     openGraph: {
       title: post.title,
       description: post.excerpt,
       type: "article",
+      url,
+      publishedTime: post.date,
+      modifiedTime: post.date,
+      authors: ["PLAMAR-BAU"],
+      section: post.category,
+      tags: post.tags,
+      images: [post.image],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: post.title,
+      description: post.excerpt,
       images: [post.image],
     },
   };

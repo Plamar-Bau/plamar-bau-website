@@ -11,6 +11,15 @@ export const metadata: Metadata = {
   title: "Blog & Ratgeber | PLAMAR Bauunternehmung UG",
   description:
     "Ratgeber und Tipps rund um Bau, Sanierung und Modernisierung: Gerüstbau, Dach, Fassade, Bad, Elektro, Heizung und mehr vom Bauunternehmen PLAMAR aus Uhingen.",
+  alternates: { canonical: "/blog" },
+  openGraph: {
+    title: "Blog & Ratgeber | PLAMAR-BAU",
+    description:
+      "Ratgeber rund um Bau, Sanierung und Modernisierung vom Bauunternehmen PLAMAR aus Uhingen.",
+    type: "website",
+    url: "/blog",
+    images: ["/images/blog-hero.jpg"],
+  },
 };
 
 export default function BlogPage() {

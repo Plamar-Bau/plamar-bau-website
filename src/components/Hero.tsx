@@ -18,6 +18,10 @@ export default function Hero() {
       <img
         src="/images/hero-home.jpg"
         alt="Fertiggestellte Haussanierung von PLAMAR in Uhingen"
+        width={1600}
+        height={900}
+        fetchPriority="high"
+        decoding="async"
         className="absolute inset-0 h-full w-full object-cover object-center"
       />
       <div className="absolute inset-0 bg-gradient-to-r from-brand-darker via-brand-darker/92 to-brand-darker/55" />

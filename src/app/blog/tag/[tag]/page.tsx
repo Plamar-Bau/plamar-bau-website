@@ -21,6 +21,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   return {
     title: `Beiträge mit „${name}" | PLAMAR Blog`,
     description: `Alle Blog-Beiträge zum Thema ${name} von PLAMAR Bauunternehmung UG.`,
+    alternates: { canonical: `/blog/tag/${tag}` },
   };
 }
 

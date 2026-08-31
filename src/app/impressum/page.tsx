@@ -8,6 +8,7 @@ import { company } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Impressum | PLAMAR Bauunternehmung UG",
   description: "Impressum und Anbieterkennzeichnung der PLAMAR Bauunternehmung UG (haftungsbeschränkt), Uhingen.",
+  alternates: { canonical: "/impressum" },
   robots: { index: false, follow: true },
 };
 

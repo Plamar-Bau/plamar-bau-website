@@ -21,6 +21,15 @@ export const metadata: Metadata = {
   title: "Kontakt | PLAMAR Bauunternehmung UG in Uhingen",
   description:
     "Kontaktieren Sie PLAMAR Bauunternehmung UG in Uhingen. Telefon, E-Mail und Anfrageformular für Gerüstbau, Sanierung, Fassade, Dach und mehr. Kostenloses, unverbindliches Angebot.",
+  alternates: { canonical: "/kontakt" },
+  openGraph: {
+    title: "Kontakt | PLAMAR-BAU aus Uhingen",
+    description:
+      "Telefon, E-Mail und Anfrageformular. Fordern Sie ein kostenloses, unverbindliches Angebot an.",
+    type: "website",
+    url: "/kontakt",
+    images: ["/images/kontakt-hero.jpg"],
+  },
 };
 
 const info = [

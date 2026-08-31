@@ -29,9 +29,25 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const { slug } = await params;
   const service = getService(slug);
   if (!service) return { title: "Leistung nicht gefunden | PLAMAR" };
+  const url = `/leistungen/${service.slug}`;
+  const description = `${service.tagline}. ${service.intro[0]}`;
   return {
-    title: `${service.title} | PLAMAR Bauunternehmung UG`,
-    description: `${service.tagline}. ${service.intro[0]}`,
+    title: `${service.title} in Uhingen & Umgebung | PLAMAR-BAU`,
+    description,
+    alternates: { canonical: url },
+    openGraph: {
+      title: `${service.title} | PLAMAR-BAU`,
+      description,
+      type: "website",
+      url,
+      images: service.image ? [service.image] : undefined,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${service.title} | PLAMAR-BAU`,
+      description,
+      images: service.image ? [service.image] : undefined,
+    },
   };
 }
 

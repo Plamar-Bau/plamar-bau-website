@@ -26,6 +26,14 @@ export const metadata: Metadata = {
   description:
     "Referenzen von PLAMAR-BAU aus Uhingen: Einblicke in unsere Arbeit rund um Gerüstbau, Sanierung, Fassade, Dach und Innenausbau. Handwerk mit Sorgfalt, für Ergebnisse, die überzeugen.",
   alternates: { canonical: "/referenzen" },
+  openGraph: {
+    title: "Referenzen | PLAMAR-BAU aus Uhingen",
+    description:
+      "Einblicke in unsere Arbeit rund um Gerüstbau, Sanierung, Fassade, Dach und Innenausbau.",
+    type: "website",
+    url: "/referenzen",
+    images: ["/images/ref-hero.jpg"],
+  },
 };
 
 const qualities = [

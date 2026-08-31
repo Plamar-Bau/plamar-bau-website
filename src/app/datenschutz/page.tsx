@@ -8,6 +8,7 @@ import { company } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Datenschutzerklärung | PLAMAR Bauunternehmung UG",
   description: "Informationen zum Datenschutz gemäß DSGVO bei der PLAMAR Bauunternehmung UG (haftungsbeschränkt), Uhingen.",
+  alternates: { canonical: "/datenschutz" },
   robots: { index: false, follow: true },
 };
 
