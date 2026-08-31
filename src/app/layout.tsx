@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Poppins, Lato } from "next/font/google";
 import "./globals.css";
 import CookieConsent from "@/components/CookieConsent";
+import WhatsAppButton from "@/components/WhatsAppButton";
 import { company } from "@/lib/site";
 import { services } from "@/lib/services";
 
@@ -163,6 +164,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(orgJsonLd) }}
         />
         {children}
+        <WhatsAppButton />
         <CookieConsent />
       </body>
     </html>

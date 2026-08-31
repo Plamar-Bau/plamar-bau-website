@@ -15,6 +15,7 @@ export const company = {
   phone: "0163 5877831",
   phoneIntl: "+491635877831",
   phoneHref: "tel:+491635877831",
+  whatsappHref: "https://wa.me/491635877831",
   email: "projects@plamar-bau.de",
   emailHref: "mailto:projects@plamar-bau.de",
   registerCourt: "Amtsgericht Ulm",
