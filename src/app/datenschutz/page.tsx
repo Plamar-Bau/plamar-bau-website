@@ -110,7 +110,7 @@ export default function DatenschutzPage() {
                 erscheint.
               </p>
               <p>
-                Optionale Cookies – etwa für Statistik oder Marketing – setzen
+                Optionale Cookies, etwa für Statistik oder Marketing, setzen
                 wir nur, wenn Sie zuvor ausdrücklich zugestimmt haben (Art. 6
                 Abs. 1 lit. a DSGVO, § 25 Abs. 1 TTDSG). Ihre Einwilligung können
                 Sie jederzeit über den Link „Cookie-Einstellungen“ im
@@ -176,7 +176,7 @@ export default function DatenschutzPage() {
             <p className="rounded-xl border border-line bg-surface p-4 text-sm text-muted">
               Hinweis: Diese Datenschutzerklärung ist eine sorgfältig erstellte
               Vorlage. Bitte ergänzen Sie die markierten Angaben (z. B. Hoster)
-              und lassen Sie den Text vor der Veröffentlichung rechtlich prüfen –
+              und lassen Sie den Text vor der Veröffentlichung rechtlich prüfen,
               insbesondere, sobald weitere Dienste (Analyse, Karten, Formular-
               Backend o. Ä.) eingebunden werden.
             </p>

@@ -131,7 +131,7 @@ export async function POST(request: Request) {
     auth: { user, pass },
   });
 
-  const subject = `Neue Anfrage über die Website – ${name}`;
+  const subject = `Neue Anfrage über die Website: ${name}`;
   const lines = [
     ["Name", name],
     ["Telefon", phone],

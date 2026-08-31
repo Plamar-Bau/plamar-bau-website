@@ -250,7 +250,7 @@ export default async function ServicePage({ params }: Params) {
                 Was passiert, wenn man es aufschiebt
               </h2>
               <p className="mt-4 text-white/75">
-                Wird das Thema hinausgezögert, wächst der Aufwand meist mit –
+                Wird das Thema hinausgezögert, wächst der Aufwand meist mit,
                 fachlich wie finanziell. Diese Punkte sollten Sie kennen:
               </p>
             </Reveal>
@@ -349,7 +349,7 @@ export default async function ServicePage({ params }: Params) {
                 Häufige Fragen
               </p>
               <h2 className="mt-3 font-heading text-3xl font-extrabold uppercase leading-tight text-brand-dark sm:text-4xl">
-                {service.title} – gut zu wissen
+                {service.title}: gut zu wissen
               </h2>
             </Reveal>
             <div className="mt-12">

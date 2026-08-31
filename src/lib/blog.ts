@@ -1,4 +1,4 @@
-// Blog-Inhalte für PLAMAR Bauunternehmung UG – original verfasste Ratgeber
+// Blog-Inhalte für PLAMAR Bauunternehmung UG, original verfasste Ratgeber
 // rund um Bau, Sanierung und Modernisierung.
 
 export type BlogPost = {
@@ -24,7 +24,7 @@ export const posts: BlogPost[] = [
     slug: "geruestbau-grundlage-jeder-sanierung",
     title: "Gerüstbau: Warum das richtige Gerüst über den Erfolg entscheidet",
     excerpt:
-      "Ein standsicheres Gerüst ist mehr als nur Zubehör – es ist die Grundlage für sichere, saubere und zügige Arbeiten an Fassade und Dach.",
+      "Ein standsicheres Gerüst ist mehr als nur Zubehör, es ist die Grundlage für sichere, saubere und zügige Arbeiten an Fassade und Dach.",
     category: "Gerüstbau",
     tags: ["Gerüstbau", "Sicherheit", "Fassade", "Baustelle"],
     date: "2025-04-08",
@@ -32,7 +32,7 @@ export const posts: BlogPost[] = [
     readMinutes: 4,
     image: "/images/blog-geruestbau.jpg",
     intro: [
-      "Bei fast jeder Sanierung ist das Gerüst das Erste, was auf der Baustelle aufgebaut wird – und oft das Letzte, was wieder verschwindet. Kein Wunder: Ohne sicheren Zugang lassen sich Arbeiten an Fassade, Dach und Außenwand weder sauber noch gefahrlos ausführen.",
+      "Bei fast jeder Sanierung ist das Gerüst das Erste, was auf der Baustelle aufgebaut wird, und oft das Letzte, was wieder verschwindet. Kein Wunder: Ohne sicheren Zugang lassen sich Arbeiten an Fassade, Dach und Außenwand weder sauber noch gefahrlos ausführen.",
       "In diesem Beitrag erklären wir, warum die Wahl des richtigen Gerüsts so wichtig ist, welche Arten es gibt und worauf Sie bei der Planung achten sollten.",
     ],
     sections: [
@@ -40,14 +40,14 @@ export const posts: BlogPost[] = [
         heading: "Sicherheit hat oberste Priorität",
         body: [
           "Ein normgerecht aufgebautes Gerüst schützt nicht nur die Handwerker, sondern auch Bewohner und Passanten. Absturzsicherungen, Seitenschutz und geprüfte Standfestigkeit sind keine Option, sondern Pflicht.",
-          "Improvisierte Lösungen wirken auf den ersten Blick günstiger, sind aber ein erhebliches Risiko – und im Schadensfall deutlich teurer als ein fachgerecht gestelltes Gerüst.",
+          "Improvisierte Lösungen wirken auf den ersten Blick günstiger, sind aber ein erhebliches Risiko, und im Schadensfall deutlich teurer als ein fachgerecht gestelltes Gerüst.",
         ],
       },
       {
         heading: "Die passende Gerüstart wählen",
         body: [
           "Fassadengerüste eignen sich für Putz-, Anstrich- und Dämmarbeiten, Arbeitsgerüste bieten Handwerkern verschiedener Gewerke eine stabile Arbeitsebene, und Schutzgerüste sichern Bereiche ab. Welche Variante sinnvoll ist, hängt von Höhe, Gebäudeform und Standzeit ab.",
-          "Wir sehen uns die Baustelle vorab an und wählen das Gerüst, das zu Ihrem Vorhaben passt – standsicher und effizient nutzbar.",
+          "Wir sehen uns die Baustelle vorab an und wählen das Gerüst, das zu Ihrem Vorhaben passt, standsicher und effizient nutzbar.",
         ],
       },
       {
@@ -60,12 +60,12 @@ export const posts: BlogPost[] = [
     ],
     faqs: [
       { q: "Wie lange bleibt ein Gerüst üblicherweise stehen?", a: "Das richtet sich nach dem Bauablauf und den beteiligten Gewerken. Wir stimmen die Standzeit vorab mit Ihnen ab." },
-      { q: "Ist ein Gerüst auch für kleine Arbeiten nötig?", a: "Sobald in Höhe gearbeitet wird, ist eine sichere Zugänglichkeit wichtig – oft schon bei kleineren Reparaturen an Fassade oder Dach." },
+      { q: "Ist ein Gerüst auch für kleine Arbeiten nötig?", a: "Sobald in Höhe gearbeitet wird, ist eine sichere Zugänglichkeit wichtig, oft schon bei kleineren Reparaturen an Fassade oder Dach." },
       { q: "Übernehmen Sie Auf- und Abbau?", a: "Ja, inklusive Prüfung und Freigabe vor der Nutzung sowie sauberem Rückbau nach Abschluss." },
     ],
     cta: {
       title: "Planen Sie Arbeiten an Fassade oder Dach?",
-      text: "Wir stellen das passende Gerüst und koordinieren die Arbeiten für Sie – sicher und aus einer Hand.",
+      text: "Wir stellen das passende Gerüst und koordinieren die Arbeiten für Sie, sicher und aus einer Hand.",
     },
   },
   {
@@ -80,7 +80,7 @@ export const posts: BlogPost[] = [
     readMinutes: 6,
     image: "/images/blog-komplettsanierung.jpg",
     intro: [
-      "Eine komplette Haussanierung ist ein großes Projekt – aber mit klarer Planung gut zu bewältigen. Entscheidend ist, dass alle Gewerke aufeinander abgestimmt sind und in der richtigen Reihenfolge ineinandergreifen.",
+      "Eine komplette Haussanierung ist ein großes Projekt, aber mit klarer Planung gut zu bewältigen. Entscheidend ist, dass alle Gewerke aufeinander abgestimmt sind und in der richtigen Reihenfolge ineinandergreifen.",
       "Dieser Überblick zeigt, welche Phasen eine Komplettsanierung durchläuft und worauf es dabei ankommt.",
     ],
     sections: [
@@ -88,13 +88,13 @@ export const posts: BlogPost[] = [
         heading: "1. Bestandsaufnahme und Planung",
         body: [
           "Am Anfang steht die ehrliche Prüfung des Ist-Zustands. Auf dieser Grundlage legen wir Umfang, Ausstattung und Ablauf fest und stimmen einen realistischen Zeit- und Kostenrahmen mit Ihnen ab.",
-          "Je genauer die Planung, desto reibungsloser die Ausführung – und desto weniger böse Überraschungen später.",
+          "Je genauer die Planung, desto reibungsloser die Ausführung, und desto weniger böse Überraschungen später.",
         ],
       },
       {
         heading: "2. Entkernung und Rohbau",
         body: [
-          "Alte, verschlissene Bauteile werden entfernt, anschließend schaffen Rohbauarbeiten die bauliche Grundlage. Erst jetzt zeigt sich manchmal der wahre Zustand der Substanz – ein Grund, hier sorgfältig zu arbeiten.",
+          "Alte, verschlissene Bauteile werden entfernt, anschließend schaffen Rohbauarbeiten die bauliche Grundlage. Erst jetzt zeigt sich manchmal der wahre Zustand der Substanz, ein Grund, hier sorgfältig zu arbeiten.",
         ],
       },
       {
@@ -107,12 +107,12 @@ export const posts: BlogPost[] = [
     ],
     faqs: [
       { q: "Wie lange dauert eine Komplettsanierung?", a: "Das hängt von Größe und Umfang ab. Nach der Bestandsaufnahme nennen wir Ihnen einen realistischen Zeitrahmen." },
-      { q: "Kann ich während der Sanierung im Haus wohnen?", a: "Bei einer Komplettsanierung ist das meist nicht möglich – wir besprechen das ehrlich bei der Planung." },
+      { q: "Kann ich während der Sanierung im Haus wohnen?", a: "Bei einer Komplettsanierung ist das meist nicht möglich, wir besprechen das ehrlich bei der Planung." },
       { q: "Übernehmen Sie wirklich alle Gewerke?", a: "Ja. Wir koordinieren und führen die nötigen Handwerke bis zur Übergabe aus." },
     ],
     cta: {
       title: "Denken Sie über eine Komplettsanierung nach?",
-      text: "Lassen Sie uns Ihr Objekt gemeinsam ansehen – Sie erhalten ein klares, unverbindliches Angebot.",
+      text: "Lassen Sie uns Ihr Objekt gemeinsam ansehen, Sie erhalten ein klares, unverbindliches Angebot.",
     },
   },
   {
@@ -127,7 +127,7 @@ export const posts: BlogPost[] = [
     readMinutes: 5,
     image: "/images/blog-fassade.jpg",
     intro: [
-      "Die Fassade ist die Schutzhülle Ihres Hauses und zugleich seine Visitenkarte. Sie ist dauerhaft Wind, Regen, Frost und UV-Strahlung ausgesetzt – und zeigt mit der Zeit entsprechende Spuren.",
+      "Die Fassade ist die Schutzhülle Ihres Hauses und zugleich seine Visitenkarte. Sie ist dauerhaft Wind, Regen, Frost und UV-Strahlung ausgesetzt, und zeigt mit der Zeit entsprechende Spuren.",
       "Doch wann ist der richtige Zeitpunkt für eine Sanierung? Und was bringt sie außer einer schöneren Optik?",
     ],
     sections: [
@@ -135,13 +135,13 @@ export const posts: BlogPost[] = [
         heading: "Diese Anzeichen sprechen für eine Sanierung",
         body: [
           "Risse, abblätternder Putz, feuchte Stellen oder Algenbewuchs sind deutliche Warnsignale. Sie bedeuten, dass die Fassade ihre Schutzfunktion nicht mehr vollständig erfüllt.",
-          "Wird nicht gehandelt, dringt Feuchtigkeit ins Mauerwerk – und aus einem überschaubaren Problem wird schnell eine aufwendige Instandsetzung.",
+          "Wird nicht gehandelt, dringt Feuchtigkeit ins Mauerwerk, und aus einem überschaubaren Problem wird schnell eine aufwendige Instandsetzung.",
         ],
       },
       {
         heading: "Mehr als Optik: Schutz und Energie",
         body: [
-          "Eine sanierte Fassade schützt die Bausubstanz und erhält den Wert der Immobilie. Im Zuge der Arbeiten lässt sich außerdem oft der Wärmeschutz verbessern – das kann die Heizkosten spürbar senken.",
+          "Eine sanierte Fassade schützt die Bausubstanz und erhält den Wert der Immobilie. Im Zuge der Arbeiten lässt sich außerdem oft der Wärmeschutz verbessern, das kann die Heizkosten spürbar senken.",
         ],
       },
       {
@@ -153,7 +153,7 @@ export const posts: BlogPost[] = [
     ],
     faqs: [
       { q: "Woran erkenne ich, dass meine Fassade saniert werden muss?", a: "Typische Anzeichen sind Risse, abblätternder Putz, Feuchtigkeit und Algenbewuchs." },
-      { q: "Verbessert eine Fassadensanierung die Energiebilanz?", a: "Häufig ja – im Zuge der Arbeiten lässt sich der Wärmeschutz sinnvoll mitverbessern." },
+      { q: "Verbessert eine Fassadensanierung die Energiebilanz?", a: "Häufig ja, im Zuge der Arbeiten lässt sich der Wärmeschutz sinnvoll mitverbessern." },
       { q: "Brauche ich dafür ein Gerüst?", a: "In der Regel ja. Wir stellen das passende Gerüst gleich mit." },
     ],
     cta: {
@@ -165,7 +165,7 @@ export const posts: BlogPost[] = [
     slug: "dachsanierung-anzeichen-erneuerung",
     title: "Dachsanierung: 5 Anzeichen, dass Ihr Dach erneuert werden muss",
     excerpt:
-      "Das Dach schützt das ganze Haus. An diesen Anzeichen erkennen Sie, dass eine Sanierung ansteht – bevor größere Schäden entstehen.",
+      "Das Dach schützt das ganze Haus. An diesen Anzeichen erkennen Sie, dass eine Sanierung ansteht, bevor größere Schäden entstehen.",
     category: "Dach & Fassade",
     tags: ["Dach", "Sanierung", "Dämmung", "Feuchtigkeit"],
     date: "2025-06-05",
@@ -173,7 +173,7 @@ export const posts: BlogPost[] = [
     readMinutes: 5,
     image: "/images/blog-dach.jpg",
     intro: [
-      "Ein dichtes Dach schützt das gesamte Gebäude vor Witterung. Zeigt es Schwächen, sind schnell auch Dämmung, Decken und Mauerwerk betroffen – denn Feuchtigkeit wandert von oben nach unten.",
+      "Ein dichtes Dach schützt das gesamte Gebäude vor Witterung. Zeigt es Schwächen, sind schnell auch Dämmung, Decken und Mauerwerk betroffen, denn Feuchtigkeit wandert von oben nach unten.",
       "Diese fünf Anzeichen sollten Sie ernst nehmen.",
     ],
     sections: [
@@ -181,7 +181,7 @@ export const posts: BlogPost[] = [
         heading: "Sichtbare Schäden und Feuchtigkeit",
         body: [
           "Beschädigte oder verrutschte Ziegel, feuchte Flecken an der Decke im Obergeschoss und zugige Räume sind klare Hinweise. Oft zeigt sich der Schaden erst innen, wenn außen längst etwas nicht mehr stimmt.",
-          "Wer hier zögert, riskiert Schimmel und Fäulnis an Holz und Bausubstanz – und damit deutlich höhere Reparaturkosten.",
+          "Wer hier zögert, riskiert Schimmel und Fäulnis an Holz und Bausubstanz, und damit deutlich höhere Reparaturkosten.",
         ],
       },
       {
@@ -219,14 +219,14 @@ export const posts: BlogPost[] = [
     readMinutes: 5,
     image: "/images/blog-bad.jpg",
     intro: [
-      "Das Bad gehört zu den am intensivsten genutzten Räumen im Haus – und altert entsprechend. Eine Badsanierung macht daraus wieder einen modernen, funktionalen Raum.",
+      "Das Bad gehört zu den am intensivsten genutzten Räumen im Haus, und altert entsprechend. Eine Badsanierung macht daraus wieder einen modernen, funktionalen Raum.",
       "Damit alles reibungslos läuft, kommt es auf gute Planung und aufeinander abgestimmte Gewerke an.",
     ],
     sections: [
       {
         heading: "Aufteilung und Ausstattung festlegen",
         body: [
-          "Zu Beginn klären wir gemeinsam, wie das Bad aufgeteilt sein soll, welche Ausstattung Sie wünschen und welche Materialien infrage kommen. Auf Wunsch planen wir barrierearm – etwa mit bodengleicher Dusche.",
+          "Zu Beginn klären wir gemeinsam, wie das Bad aufgeteilt sein soll, welche Ausstattung Sie wünschen und welche Materialien infrage kommen. Auf Wunsch planen wir barrierearm, etwa mit bodengleicher Dusche.",
           "Eine durchdachte Planung verhindert teure Änderungen während der Bauphase.",
         ],
       },
@@ -244,13 +244,13 @@ export const posts: BlogPost[] = [
       },
     ],
     faqs: [
-      { q: "Wie lange dauert eine Badsanierung?", a: "Je nach Größe und Umfang – nach der Planung nennen wir Ihnen einen realistischen Zeitrahmen." },
+      { q: "Wie lange dauert eine Badsanierung?", a: "Je nach Größe und Umfang, nach der Planung nennen wir Ihnen einen realistischen Zeitrahmen." },
       { q: "Ist ein barrierearmes Bad möglich?", a: "Ja, auf Wunsch planen wir Ihr Bad barrierearm und zukunftssicher." },
       { q: "Kann ich Fliesen und Ausstattung selbst wählen?", a: "Selbstverständlich. Wir beraten Sie und setzen Ihre Auswahl um." },
     ],
     cta: {
       title: "Träumen Sie von einem neuen Bad?",
-      text: "Wir planen und sanieren Ihr Bad komplett aus einer Hand – von der Fliese bis zur fertigen Ausstattung.",
+      text: "Wir planen und sanieren Ihr Bad komplett aus einer Hand, von der Fliese bis zur fertigen Ausstattung.",
     },
   },
   {
@@ -290,13 +290,13 @@ export const posts: BlogPost[] = [
       },
     ],
     faqs: [
-      { q: "Wann sollte die Elektrik modernisiert werden?", a: "Spätestens bei veralteten Leitungen, zu wenigen Anschlüssen oder häufig auslösenden Sicherungen – idealerweise im Zuge einer Sanierung." },
+      { q: "Wann sollte die Elektrik modernisiert werden?", a: "Spätestens bei veralteten Leitungen, zu wenigen Anschlüssen oder häufig auslösenden Sicherungen, idealerweise im Zuge einer Sanierung." },
       { q: "Muss dafür alles aufgestemmt werden?", a: "Am wenigsten aufwendig ist die Erneuerung bei offenen Wänden. Wir planen den besten Weg mit Ihnen." },
       { q: "Macht ihr auch einzelne Räume?", a: "Ja, von einzelnen Räumen bis zur Elektrik im ganzen Haus." },
     ],
     cta: {
       title: "Ist Ihre Elektrik noch auf dem neuesten Stand?",
-      text: "Wir modernisieren Ihre Installation fachgerecht – für mehr Sicherheit und Komfort.",
+      text: "Wir modernisieren Ihre Installation fachgerecht, für mehr Sicherheit und Komfort.",
     },
   },
   {
@@ -311,7 +311,7 @@ export const posts: BlogPost[] = [
     readMinutes: 4,
     image: "/images/blog-hws.jpg",
     intro: [
-      "Unter HWS fassen wir Heizung, Wasser und Sanitär zusammen – die zentrale Haustechnik. Sie sorgt für Wärme, Warmwasser und eine funktionierende Versorgung im ganzen Haus.",
+      "Unter HWS fassen wir Heizung, Wasser und Sanitär zusammen, die zentrale Haustechnik. Sie sorgt für Wärme, Warmwasser und eine funktionierende Versorgung im ganzen Haus.",
       "Mit der Zeit lohnt sich eine Modernisierung gleich mehrfach.",
     ],
     sections: [
@@ -324,21 +324,21 @@ export const posts: BlogPost[] = [
       {
         heading: "Weniger Störungen und Schäden",
         body: [
-          "Alte Leitungen können undicht werden – Feuchtigkeit und Folgeschäden drohen. Neue Technik ist deutlich weniger anfällig für Ausfälle und Reparaturen.",
+          "Alte Leitungen können undicht werden, Feuchtigkeit und Folgeschäden drohen. Neue Technik ist deutlich weniger anfällig für Ausfälle und Reparaturen.",
           "Fällt die Heizung ausgerechnet im Winter aus, wird der Austausch schnell zum Notfall.",
         ],
       },
       {
         heading: "Alles abgestimmt aus einer Hand",
         body: [
-          "Weil Heizung, Wasser und Sanitär eng zusammenhängen, ist es sinnvoll, sie gemeinsam zu planen – besonders im Rahmen einer Bad- oder Haussanierung.",
+          "Weil Heizung, Wasser und Sanitär eng zusammenhängen, ist es sinnvoll, sie gemeinsam zu planen, besonders im Rahmen einer Bad- oder Haussanierung.",
         ],
       },
     ],
     faqs: [
-      { q: "Was bedeutet HWS?", a: "HWS steht für Heizung, Wasser und Sanitär – die zentrale Haustechnik, die wir aus einer Hand übernehmen." },
+      { q: "Was bedeutet HWS?", a: "HWS steht für Heizung, Wasser und Sanitär, die zentrale Haustechnik, die wir aus einer Hand übernehmen." },
       { q: "Wann lohnt sich eine Modernisierung?", a: "Bei hohem Verbrauch, häufigen Störungen oder alten Leitungen zahlt sich eine Erneuerung meist schnell aus." },
-      { q: "Übernehmt ihr auch die Badinstallation?", a: "Ja, die Sanitärinstallation gehört dazu – oft im Rahmen einer Badsanierung." },
+      { q: "Übernehmt ihr auch die Badinstallation?", a: "Ja, die Sanitärinstallation gehört dazu, oft im Rahmen einer Badsanierung." },
     ],
     cta: {
       title: "Verbraucht Ihre Haustechnik zu viel?",
@@ -357,38 +357,38 @@ export const posts: BlogPost[] = [
     readMinutes: 5,
     image: "/images/blog-innenausbau.jpg",
     intro: [
-      "Der Ausbau des Dachgeschosses ist eine der lohnendsten Maßnahmen überhaupt: Ohne anzubauen entsteht wertvoller zusätzlicher Wohnraum – ideal als Schlaf-, Arbeits- oder Kinderzimmer.",
+      "Der Ausbau des Dachgeschosses ist eine der lohnendsten Maßnahmen überhaupt: Ohne anzubauen entsteht wertvoller zusätzlicher Wohnraum, ideal als Schlaf-, Arbeits- oder Kinderzimmer.",
       "Damit daraus ein wirklich wohnlicher Raum wird, kommt es auf mehrere Faktoren an.",
     ],
     sections: [
       {
         heading: "Dämmung und Raumklima",
         body: [
-          "Eine gute Dämmung ist beim Dachausbau entscheidend – für angenehme Temperaturen im Sommer wie im Winter und für niedrige Heizkosten.",
+          "Eine gute Dämmung ist beim Dachausbau entscheidend, für angenehme Temperaturen im Sommer wie im Winter und für niedrige Heizkosten.",
           "Auch der Schallschutz lässt sich beim Innenausbau gezielt verbessern.",
         ],
       },
       {
         heading: "Trockenbau, Böden und Oberflächen",
         body: [
-          "Wände und Decken im Trockenbau, passende Böden, Türen und Oberflächen machen aus dem Rohraum eine fertige Wohnfläche – ganz nach Ihren Vorstellungen.",
+          "Wände und Decken im Trockenbau, passende Böden, Türen und Oberflächen machen aus dem Rohraum eine fertige Wohnfläche, ganz nach Ihren Vorstellungen.",
         ],
       },
       {
         heading: "Individuell geplant",
         body: [
-          "Wir arbeiten sauber und abgestimmt – auf Wunsch als einzelne Leistung oder als Teil einer kompletten Sanierung.",
+          "Wir arbeiten sauber und abgestimmt, auf Wunsch als einzelne Leistung oder als Teil einer kompletten Sanierung.",
         ],
       },
     ],
     faqs: [
-      { q: "Lohnt sich ein Dachausbau?", a: "In der Regel ja: Er schafft zusätzlichen Wohnraum und steigert den Wert der Immobilie – ohne Anbau." },
+      { q: "Lohnt sich ein Dachausbau?", a: "In der Regel ja: Er schafft zusätzlichen Wohnraum und steigert den Wert der Immobilie, ohne Anbau." },
       { q: "Ist eine Dämmung notwendig?", a: "Ja, eine gute Dämmung ist für Wohnkomfort und Heizkosten entscheidend." },
       { q: "Macht ihr auch nur den Innenausbau?", a: "Ja, als einzelne Leistung oder als Teil einer Gesamtsanierung." },
     ],
     cta: {
       title: "Schlummert unter Ihrem Dach ungenutzter Raum?",
-      text: "Wir bauen Ihr Dachgeschoss zu wohnlichem Raum aus – von der Dämmung bis zur fertigen Oberfläche.",
+      text: "Wir bauen Ihr Dachgeschoss zu wohnlichem Raum aus, von der Dämmung bis zur fertigen Oberfläche.",
     },
   },
   {
@@ -404,7 +404,7 @@ export const posts: BlogPost[] = [
     image: "/images/blog-gewerke.jpg",
     intro: [
       "Bei einer Sanierung sind schnell viele Gewerke beteiligt: Gerüst, Rohbau, Elektro, Heizung, Wasser, Sanitär, Innenausbau, Fassade und Dach. Wer diese einzeln beauftragt, muss Termine, Reihenfolge und Schnittstellen selbst im Griff behalten.",
-      "Ein Bauunternehmen als Generalist übernimmt genau diese Koordination – mit spürbaren Vorteilen.",
+      "Ein Bauunternehmen als Generalist übernimmt genau diese Koordination, mit spürbaren Vorteilen.",
     ],
     sections: [
       {
@@ -422,7 +422,7 @@ export const posts: BlogPost[] = [
       {
         heading: "Ein Ergebnis aus einem Guss",
         body: [
-          "Statt einzelner Insellösungen entsteht ein stimmiges Gesamtergebnis – und die Verantwortung liegt an einer Stelle.",
+          "Statt einzelner Insellösungen entsteht ein stimmiges Gesamtergebnis, und die Verantwortung liegt an einer Stelle.",
         ],
       },
     ],
@@ -433,7 +433,7 @@ export const posts: BlogPost[] = [
     ],
     cta: {
       title: "Ein Projekt, viele Gewerke?",
-      text: "Wir koordinieren alles aus einer Hand – Sie behalten den Überblick und einen Ansprechpartner.",
+      text: "Wir koordinieren alles aus einer Hand, Sie behalten den Überblick und einen Ansprechpartner.",
     },
   },
   {
@@ -462,7 +462,7 @@ export const posts: BlogPost[] = [
       {
         heading: "Ein realistischer Ablauf",
         body: [
-          "Nach Bestandsaufnahme und Planung folgen Ausführung und Übergabe. Entscheidend ist die richtige Reihenfolge der Gewerke – damit nichts doppelt gemacht werden muss.",
+          "Nach Bestandsaufnahme und Planung folgen Ausführung und Übergabe. Entscheidend ist die richtige Reihenfolge der Gewerke, damit nichts doppelt gemacht werden muss.",
         ],
       },
       {
@@ -474,7 +474,7 @@ export const posts: BlogPost[] = [
     ],
     faqs: [
       { q: "Wie erhalte ich ein belastbares Angebot?", a: "Über eine ehrliche Bestandsaufnahme vor Ort. Danach erstellen wir ein unverbindliches Angebot mit klarem Umfang." },
-      { q: "Ist eine Gesamtsanierung günstiger als Stückwerk?", a: "Oft ja – eine geplante Gesamtmaßnahme vermeidet doppelte Arbeit und Reibungsverluste." },
+      { q: "Ist eine Gesamtsanierung günstiger als Stückwerk?", a: "Oft ja, eine geplante Gesamtmaßnahme vermeidet doppelte Arbeit und Reibungsverluste." },
       { q: "Sollte man mit der Sanierung warten?", a: "Bei sichtbaren Mängeln selten. Frühes Handeln hält den Aufwand überschaubar." },
     ],
     cta: {
@@ -494,7 +494,7 @@ export const posts: BlogPost[] = [
     readMinutes: 5,
     image: "/images/blog-energetisch.jpg",
     intro: [
-      "Steigende Energiekosten machen die energetische Sanierung für viele Hausbesitzer interessant. Wer heute in Dämmung und moderne Technik investiert, spart langfristig – und wertet die Immobilie zugleich auf.",
+      "Steigende Energiekosten machen die energetische Sanierung für viele Hausbesitzer interessant. Wer heute in Dämmung und moderne Technik investiert, spart langfristig, und wertet die Immobilie zugleich auf.",
       "Welche Maßnahmen sinnvoll sind und wie Sie vorgehen, zeigt dieser Beitrag.",
     ],
     sections: [
@@ -508,12 +508,12 @@ export const posts: BlogPost[] = [
       {
         heading: "Schritt für Schritt statt alles auf einmal",
         body: [
-          "Eine energetische Sanierung lässt sich auch etappenweise umsetzen – wichtig ist, dass die Schritte sinnvoll aufeinander abgestimmt sind, damit sie später zusammenpassen.",
+          "Eine energetische Sanierung lässt sich auch etappenweise umsetzen, wichtig ist, dass die Schritte sinnvoll aufeinander abgestimmt sind, damit sie später zusammenpassen.",
         ],
       },
     ],
     faqs: [
-      { q: "Lohnt sich eine energetische Sanierung?", a: "In der Regel ja – sie senkt die Betriebskosten und steigert den Wert der Immobilie. Die konkrete Rechnung hängt vom Zustand ab." },
+      { q: "Lohnt sich eine energetische Sanierung?", a: "In der Regel ja, sie senkt die Betriebskosten und steigert den Wert der Immobilie. Die konkrete Rechnung hängt vom Zustand ab." },
       { q: "Muss ich alles auf einmal machen?", a: "Nein, eine schrittweise Umsetzung ist möglich, sollte aber gut geplant sein." },
       { q: "Gibt es Fördermöglichkeiten?", a: "Für energetische Maßnahmen bestehen häufig Förderprogramme. Lassen Sie sich dazu individuell beraten." },
     ],
@@ -534,7 +534,7 @@ export const posts: BlogPost[] = [
     readMinutes: 4,
     image: "/images/blog-daemmung.jpg",
     intro: [
-      "Über eine ungedämmte Fassade geht viel Heizwärme verloren. Eine Fassadendämmung reduziert diesen Verlust spürbar – und verbessert gleichzeitig den Schutz vor Witterung.",
+      "Über eine ungedämmte Fassade geht viel Heizwärme verloren. Eine Fassadendämmung reduziert diesen Verlust spürbar, und verbessert gleichzeitig den Schutz vor Witterung.",
       "Was dabei möglich ist und worauf Sie achten sollten, lesen Sie hier.",
     ],
     sections: [
@@ -565,7 +565,7 @@ export const posts: BlogPost[] = [
     slug: "trockenbau-raeume-flexibel-gestalten",
     title: "Trockenbau: Räume flexibel gestalten und Komfort verbessern",
     excerpt:
-      "Mit Trockenbau lassen sich Räume neu aufteilen, Decken abhängen und Schall- sowie Wärmeschutz verbessern – schnell und sauber.",
+      "Mit Trockenbau lassen sich Räume neu aufteilen, Decken abhängen und Schall- sowie Wärmeschutz verbessern, schnell und sauber.",
     category: "Innenausbau",
     tags: ["Trockenbau", "Innenausbau", "Schallschutz", "Umbau"],
     date: "2026-05-22",
@@ -573,7 +573,7 @@ export const posts: BlogPost[] = [
     readMinutes: 4,
     image: "/images/blog-trockenbau.jpg",
     intro: [
-      "Trockenbau ist eines der vielseitigsten Werkzeuge im Innenausbau. Damit lassen sich Räume neu aufteilen, Nischen schaffen und Decken gestalten – ohne aufwendige Maurerarbeiten.",
+      "Trockenbau ist eines der vielseitigsten Werkzeuge im Innenausbau. Damit lassen sich Räume neu aufteilen, Nischen schaffen und Decken gestalten, ohne aufwendige Maurerarbeiten.",
       "Wir zeigen, was mit Trockenbau möglich ist.",
     ],
     sections: [
@@ -632,18 +632,18 @@ export const posts: BlogPost[] = [
     faqs: [
       { q: "Woran erkenne ich Feuchtigkeit im Mauerwerk?", a: "An feuchten Flecken, muffigem Geruch, abblätterndem Putz und in schweren Fällen an Schimmel." },
       { q: "Kann ich das selbst beheben?", a: "Wichtig ist, zuerst die Ursache zu finden. Wir prüfen den Zustand und gehen das Problem an der Wurzel an." },
-      { q: "Ist Feuchtigkeit gefährlich?", a: "Sie schädigt die Bausubstanz und kann Schimmel begünstigen – daher sollte man frühzeitig handeln." },
+      { q: "Ist Feuchtigkeit gefährlich?", a: "Sie schädigt die Bausubstanz und kann Schimmel begünstigen, daher sollte man frühzeitig handeln." },
     ],
     cta: {
       title: "Haben Sie feuchte Wände?",
-      text: "Wir finden die Ursache und beheben das Problem fachgerecht – bevor größere Schäden entstehen.",
+      text: "Wir finden die Ursache und beheben das Problem fachgerecht, bevor größere Schäden entstehen.",
     },
   },
   {
     slug: "altbausanierung-worauf-achten",
     title: "Altbausanierung: Besonderheiten und worauf Sie achten sollten",
     excerpt:
-      "Altbauten haben Charme – und ihre Tücken. Was eine Altbausanierung besonders macht und wie Sie sie erfolgreich angehen.",
+      "Altbauten haben Charme, und ihre Tücken. Was eine Altbausanierung besonders macht und wie Sie sie erfolgreich angehen.",
     category: "Sanierung",
     tags: ["Altbau", "Sanierung", "Bausubstanz", "Modernisierung"],
     date: "2026-04-05",
@@ -651,7 +651,7 @@ export const posts: BlogPost[] = [
     readMinutes: 6,
     image: "/images/blog-altbau.jpg",
     intro: [
-      "Ein Altbau hat oft Charakter, den moderne Häuser nicht bieten. Doch bei der Sanierung sind einige Besonderheiten zu beachten – von der Substanz bis zur Haustechnik.",
+      "Ein Altbau hat oft Charakter, den moderne Häuser nicht bieten. Doch bei der Sanierung sind einige Besonderheiten zu beachten, von der Substanz bis zur Haustechnik.",
       "Dieser Beitrag gibt einen Überblick.",
     ],
     sections: [
@@ -698,7 +698,7 @@ export const posts: BlogPost[] = [
       {
         heading: "Energie sparen",
         body: [
-          "Moderne Fenster mit guter Verglasung reduzieren Wärmeverluste deutlich. Das senkt die Heizkosten und verbessert das Raumklima – keine Zugluft mehr an kalten Tagen.",
+          "Moderne Fenster mit guter Verglasung reduzieren Wärmeverluste deutlich. Das senkt die Heizkosten und verbessert das Raumklima, keine Zugluft mehr an kalten Tagen.",
         ],
       },
       {
@@ -730,7 +730,7 @@ export const posts: BlogPost[] = [
     readMinutes: 5,
     image: "/images/blog-boden.jpg",
     intro: [
-      "Der Bodenbelag prägt Optik und Wohngefühl eines Raumes maßgeblich – und muss zugleich zur Nutzung passen. Küche und Bad stellen andere Anforderungen als Wohn- oder Schlafzimmer.",
+      "Der Bodenbelag prägt Optik und Wohngefühl eines Raumes maßgeblich, und muss zugleich zur Nutzung passen. Küche und Bad stellen andere Anforderungen als Wohn- oder Schlafzimmer.",
       "Dieser Überblick hilft bei der Orientierung.",
     ],
     sections: [
@@ -750,7 +750,7 @@ export const posts: BlogPost[] = [
     faqs: [
       { q: "Welcher Boden eignet sich fürs Bad?", a: "Robuste, wasserunempfindliche Beläge sind hier die richtige Wahl." },
       { q: "Ist der Unterbau wichtig?", a: "Ja, ein sauberer Unterbau ist entscheidend für ein dauerhaft gutes Ergebnis." },
-      { q: "Übernehmt ihr die Verlegung?", a: "Ja, vom Unterbau bis zum fertigen Boden – im Rahmen des Innenausbaus." },
+      { q: "Übernehmt ihr die Verlegung?", a: "Ja, vom Unterbau bis zum fertigen Boden, im Rahmen des Innenausbaus." },
     ],
     cta: {
       title: "Planen Sie einen neuen Boden?",
@@ -769,7 +769,7 @@ export const posts: BlogPost[] = [
     readMinutes: 4,
     image: "/images/blog-rohbau.jpg",
     intro: [
-      "Der Rohbau ist das Skelett eines Gebäudes – er trägt alles, was danach kommt. Fehler hier lassen sich später kaum noch korrigieren, deshalb ist sorgfältige Arbeit besonders wichtig.",
+      "Der Rohbau ist das Skelett eines Gebäudes, er trägt alles, was danach kommt. Fehler hier lassen sich später kaum noch korrigieren, deshalb ist sorgfältige Arbeit besonders wichtig.",
       "Was den Rohbau ausmacht, erklären wir hier.",
     ],
     sections: [
@@ -787,7 +787,7 @@ export const posts: BlogPost[] = [
       },
     ],
     faqs: [
-      { q: "Warum ist der Rohbau so wichtig?", a: "Er bildet die tragende Grundlage – Fehler lassen sich später kaum korrigieren." },
+      { q: "Warum ist der Rohbau so wichtig?", a: "Er bildet die tragende Grundlage, Fehler lassen sich später kaum korrigieren." },
       { q: "Gehört der Rohbau zur Sanierung?", a: "Bei umfangreichen Sanierungen ja, oft als erster Schritt nach der Entkernung." },
       { q: "Koordiniert ihr die weiteren Arbeiten?", a: "Ja, wir stimmen den Rohbau mit allen folgenden Gewerken ab." },
     ],
@@ -808,7 +808,7 @@ export const posts: BlogPost[] = [
     readMinutes: 4,
     image: "/images/blog-foerderung.jpg",
     intro: [
-      "Sanierungen – besonders energetische – sind eine Investition. Die gute Nachricht: Für viele Maßnahmen gibt es Fördermöglichkeiten, die die Kosten spürbar reduzieren können.",
+      "Sanierungen, besonders energetische, sind eine Investition. Die gute Nachricht: Für viele Maßnahmen gibt es Fördermöglichkeiten, die die Kosten spürbar reduzieren können.",
       "Dieser Beitrag gibt einen groben Überblick. Für die konkrete Situation empfehlen wir eine individuelle Beratung.",
     ],
     sections: [
@@ -822,18 +822,18 @@ export const posts: BlogPost[] = [
         heading: "Beratung nutzen",
         body: [
           "Welche Förderung im Einzelfall passt, hängt von Maßnahme, Gebäude und aktuellen Programmen ab. Eine fachliche Energieberatung schafft hier Klarheit.",
-          "Wir konzentrieren uns auf die fachgerechte Ausführung – zur Förderung sollten Sie sich individuell beraten lassen.",
+          "Wir konzentrieren uns auf die fachgerechte Ausführung, zur Förderung sollten Sie sich individuell beraten lassen.",
         ],
       },
     ],
     faqs: [
-      { q: "Gibt es Förderung für Sanierungen?", a: "Für viele – besonders energetische – Maßnahmen bestehen Förderprogramme. Die Details ändern sich jedoch, daher ist eine aktuelle Beratung sinnvoll." },
+      { q: "Gibt es Förderung für Sanierungen?", a: "Für viele, besonders energetische, Maßnahmen bestehen Förderprogramme. Die Details ändern sich jedoch, daher ist eine aktuelle Beratung sinnvoll." },
       { q: "Wann muss ich den Antrag stellen?", a: "Oft vor Baubeginn. Informieren Sie sich daher frühzeitig." },
       { q: "Berät ihr zur Förderung?", a: "Wir führen die Arbeiten fachgerecht aus; zur konkreten Förderung empfehlen wir eine spezialisierte Beratung." },
     ],
     cta: {
       title: "Planen Sie eine geförderte Sanierung?",
-      text: "Wir übernehmen die fachgerechte Ausführung – sprechen Sie uns frühzeitig an.",
+      text: "Wir übernehmen die fachgerechte Ausführung, sprechen Sie uns frühzeitig an.",
     },
   },
   {
@@ -867,12 +867,12 @@ export const posts: BlogPost[] = [
     ],
     faqs: [
       { q: "Warum ist die Reihenfolge der Gewerke wichtig?", a: "Weil eine falsche Reihenfolge zu Doppelarbeit und Verzögerungen führt." },
-      { q: "Wer koordiniert die Baustelle?", a: "Bei uns übernehmen wir die Koordination – Sie haben einen festen Ansprechpartner." },
+      { q: "Wer koordiniert die Baustelle?", a: "Bei uns übernehmen wir die Koordination, Sie haben einen festen Ansprechpartner." },
       { q: "Spart gute Planung wirklich Kosten?", a: "Ja, sie vermeidet Wartezeiten und Doppelarbeit und hält den Zeitplan ein." },
     ],
     cta: {
       title: "Soll Ihr Projekt reibungslos laufen?",
-      text: "Wir planen und koordinieren Ihre Baustelle – für einen klaren Ablauf aus einer Hand.",
+      text: "Wir planen und koordinieren Ihre Baustelle, für einen klaren Ablauf aus einer Hand.",
     },
   },
 ];

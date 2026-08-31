@@ -22,24 +22,24 @@ import Reveal from "@/components/Reveal";
 import { company } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Referenzen | PLAMAR-BAU – Einblicke in unsere Arbeit",
+  title: "Referenzen | PLAMAR-BAU: Einblicke in unsere Arbeit",
   description:
-    "Referenzen von PLAMAR-BAU aus Uhingen: Einblicke in unsere Arbeit rund um Gerüstbau, Sanierung, Fassade, Dach und Innenausbau. Handwerk mit Sorgfalt – für Ergebnisse, die überzeugen.",
+    "Referenzen von PLAMAR-BAU aus Uhingen: Einblicke in unsere Arbeit rund um Gerüstbau, Sanierung, Fassade, Dach und Innenausbau. Handwerk mit Sorgfalt, für Ergebnisse, die überzeugen.",
   alternates: { canonical: "/referenzen" },
 };
 
 const qualities = [
-  { icon: BadgeCheck, title: "Handwerkliche Qualität", text: "Wir arbeiten nach anerkannten Regeln der Technik – sauber, präzise und mit Blick fürs Detail." },
+  { icon: BadgeCheck, title: "Handwerkliche Qualität", text: "Wir arbeiten nach anerkannten Regeln der Technik, sauber, präzise und mit Blick fürs Detail." },
   { icon: Eye, title: "Sichtbare Sorgfalt", text: "Ob großes Projekt oder kleiner Auftrag: Jede Arbeit führen wir mit der gleichen Gründlichkeit aus." },
   { icon: ShieldCheck, title: "Dauerhafte Ergebnisse", text: "Wir bauen so, dass es hält. Unser Anspruch endet nicht bei der Optik, sondern bei der Substanz." },
   { icon: Sparkles, title: "Saubere Übergabe", text: "Ordentliche Baustellen und ein fertiges Ergebnis, das sich sehen lassen kann." },
 ];
 
 const steps = [
-  { icon: MessageSquare, title: "Zuhören & Beraten", text: "Wir verstehen erst Ihr Anliegen, bevor wir loslegen – ehrlich und ohne leere Versprechen." },
+  { icon: MessageSquare, title: "Zuhören & Beraten", text: "Wir verstehen erst Ihr Anliegen, bevor wir loslegen, ehrlich und ohne leere Versprechen." },
   { icon: ClipboardCheck, title: "Planen & Abstimmen", text: "Klarer Umfang, realistischer Zeitplan und ein nachvollziehbares Angebot." },
   { icon: Hammer, title: "Sauber ausführen", text: "Koordiniert, termintreu und mit handwerklicher Sorgfalt bis ins Detail." },
-  { icon: ThumbsUp, title: "Zufrieden übergeben", text: "Wir übergeben erst, wenn das Ergebnis stimmt – und Sie zufrieden sind." },
+  { icon: ThumbsUp, title: "Zufrieden übergeben", text: "Wir übergeben erst, wenn das Ergebnis stimmt, und Sie zufrieden sind." },
 ];
 
 const trust = [
@@ -47,7 +47,7 @@ const trust = [
   "Alle Gewerke koordiniert aus einer Hand",
   "Transparente, unverbindliche Angebote",
   "Termintreue und saubere Baustellen",
-  "Ehrliche Beratung – auch wenn es unbequem ist",
+  "Ehrliche Beratung, auch wenn es unbequem ist",
   "Sorgfalt bei jedem Handgriff, in jedem Gewerk",
 ];
 
@@ -91,7 +91,7 @@ export default function ReferenzenPage() {
             </h1>
             <p className="mt-6 max-w-2xl text-lg leading-relaxed text-white/80">
               Vertrauen entsteht durch Ergebnisse. Auf dieser Seite geben wir
-              Ihnen Einblicke in unser Handwerk – und zeigen, mit welchem Anspruch
+              Ihnen Einblicke in unser Handwerk, und zeigen, mit welchem Anspruch
               wir für unsere Kunden arbeiten.
             </p>
           </div>
@@ -111,7 +111,7 @@ export default function ReferenzenPage() {
                 <p>
                   Am Bau zählt nicht, was man verspricht, sondern was am Ende
                   steht. Deshalb legen wir Wert darauf, dass jedes Projekt für
-                  sich spricht – vom ersten Gerüst bis zur schlüsselfertigen
+                  sich spricht, vom ersten Gerüst bis zur schlüsselfertigen
                   Übergabe.
                 </p>
                 <p>
@@ -121,7 +121,7 @@ export default function ReferenzenPage() {
                   Sorgfalt aus, die gute Handwerksarbeit ausmacht.
                 </p>
                 <p>
-                  Die folgenden Einblicke zeigen, worauf es uns ankommt –
+                  Die folgenden Einblicke zeigen, worauf es uns ankommt,
                   saubere Ausführung, ehrliche Arbeit und ein Ergebnis, auf das
                   unsere Kunden bauen können.
                 </p>
@@ -211,7 +211,7 @@ export default function ReferenzenPage() {
                   Warum Kunden auf uns setzen
                 </h2>
                 <p className="mt-6 leading-relaxed text-white/80">
-                  Gutes Handwerk allein reicht nicht – es braucht auch
+                  Gutes Handwerk allein reicht nicht, es braucht auch
                   Verlässlichkeit und Ehrlichkeit. Genau dafür stehen wir. Diese
                   Punkte machen die Zusammenarbeit mit uns aus:
                 </p>

@@ -10,7 +10,7 @@ import { getSortedPosts } from "@/lib/blog";
 export const metadata: Metadata = {
   title: "Blog & Ratgeber | PLAMAR Bauunternehmung UG",
   description:
-    "Ratgeber und Tipps rund um Bau, Sanierung und Modernisierung – Gerüstbau, Dach, Fassade, Bad, Elektro, Heizung und mehr vom Bauunternehmen PLAMAR aus Uhingen.",
+    "Ratgeber und Tipps rund um Bau, Sanierung und Modernisierung: Gerüstbau, Dach, Fassade, Bad, Elektro, Heizung und mehr vom Bauunternehmen PLAMAR aus Uhingen.",
 };
 
 export default function BlogPage() {
@@ -51,7 +51,7 @@ export default function BlogPage() {
               Blog &amp; Ratgeber
             </h1>
             <p className="mt-4 max-w-2xl text-lg text-white/80">
-              Wissenswertes rund um Bau, Sanierung und Modernisierung – von
+              Wissenswertes rund um Bau, Sanierung und Modernisierung, von
               Gerüstbau und Dach über Fassade bis zur Komplettsanierung.
             </p>
           </div>

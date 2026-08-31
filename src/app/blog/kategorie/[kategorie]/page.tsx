@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const cat = getCategories().find((c) => slugify(c.name) === kategorie);
   if (!cat) return { title: "Kategorie nicht gefunden | PLAMAR Blog" };
   return {
-    title: `${cat.name} – Beiträge | PLAMAR Blog`,
+    title: `Beiträge zu ${cat.name} | PLAMAR Blog`,
     description: `Alle Blog-Beiträge in der Kategorie ${cat.name} von PLAMAR Bauunternehmung UG.`,
   };
 }

@@ -20,7 +20,7 @@ import { company } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Kontakt | PLAMAR Bauunternehmung UG in Uhingen",
   description:
-    "Kontaktieren Sie PLAMAR Bauunternehmung UG in Uhingen – Telefon, E-Mail und Anfrageformular für Gerüstbau, Sanierung, Fassade, Dach und mehr. Kostenloses, unverbindliches Angebot.",
+    "Kontaktieren Sie PLAMAR Bauunternehmung UG in Uhingen. Telefon, E-Mail und Anfrageformular für Gerüstbau, Sanierung, Fassade, Dach und mehr. Kostenloses, unverbindliches Angebot.",
 };
 
 const info = [
@@ -32,11 +32,11 @@ const info = [
     value: `${company.street}, ${company.city}`,
     href: undefined,
   },
-  { icon: Clock, label: "Erreichbarkeit", value: "Mo–Fr nach Vereinbarung", href: undefined },
+  { icon: Clock, label: "Erreichbarkeit", value: "Mo. bis Fr. nach Vereinbarung", href: undefined },
 ];
 
 const steps = [
-  { icon: MessageSquare, title: "Ihre Anfrage", text: "Sie schildern uns Ihr Vorhaben – telefonisch oder über das Formular." },
+  { icon: MessageSquare, title: "Ihre Anfrage", text: "Sie schildern uns Ihr Vorhaben, telefonisch oder über das Formular." },
   { icon: Phone, title: "Rückmeldung", text: "Wir melden uns zeitnah und klären die ersten Fragen mit Ihnen." },
   { icon: CalendarCheck, title: "Vor-Ort-Termin", text: "Bei Bedarf sehen wir uns die Baustelle gemeinsam an." },
   { icon: FileText, title: "Angebot", text: "Sie erhalten ein klares, unverbindliches Angebot mit Umfang und Ablauf." },
@@ -79,7 +79,7 @@ export default function KontaktPage() {
             </h1>
             <p className="mt-4 max-w-2xl text-lg text-white/80">
               Sie haben ein Bauvorhaben oder eine Sanierung geplant? Wir freuen
-              uns auf Ihre Anfrage und beraten Sie gern – ehrlich und
+              uns auf Ihre Anfrage und beraten Sie gern, ehrlich und
               unverbindlich.
             </p>
 
@@ -165,7 +165,7 @@ export default function KontaktPage() {
                 Anfrage senden
               </h2>
               <p className="mt-1.5 text-slate-600">
-                Wählen Sie die passende Leistung und Ihren Wunschzeitraum – wir
+                Wählen Sie die passende Leistung und Ihren Wunschzeitraum, wir
                 melden uns zeitnah.
               </p>
               <div className="mt-6">

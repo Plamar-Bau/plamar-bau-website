@@ -21,7 +21,7 @@ const lato = Lato({
 const title =
   "PLAMAR-BAU | Gerüstbau, Sanierung & Komplettausbau in Uhingen";
 const description =
-  "PLAMAR Bauunternehmung UG (haftungsbeschränkt) in Uhingen – Ihr Partner für Gerüstbau, Komplettsanierung, Elektro, Heizung/Wasser/Sanitär, Innenausbau, Fassade, Dach und Badsanierung. Alle Gewerke aus einer Hand.";
+  "PLAMAR Bauunternehmung UG (haftungsbeschränkt) in Uhingen. Wir übernehmen Gerüstbau, Komplettsanierung, Elektro, Heizung/Wasser/Sanitär, Innenausbau, Fassade, Dach und Badsanierung. Alle Gewerke aus einer Hand.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(company.url),

@@ -24,14 +24,14 @@ import { company } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Über uns | PLAMAR-BAU Bauunternehmung UG in Uhingen",
   description:
-    "Lernen Sie PLAMAR-BAU kennen: ein Bauunternehmen aus Uhingen mit Leidenschaft fürs Handwerk. Gerüstbau, Sanierung und Ausbau – zuverlässig, ehrlich und aus einer Hand.",
+    "Lernen Sie PLAMAR-BAU kennen: ein Bauunternehmen aus Uhingen mit Leidenschaft fürs Handwerk. Gerüstbau, Sanierung und Ausbau, zuverlässig, ehrlich und aus einer Hand.",
 };
 
 const values = [
-  { icon: ShieldCheck, title: "Qualität", text: "Handwerkliche Sorgfalt nach anerkannten Regeln der Technik – bei jedem Handgriff, in jedem Gewerk." },
+  { icon: ShieldCheck, title: "Qualität", text: "Handwerkliche Sorgfalt nach anerkannten Regeln der Technik, bei jedem Handgriff, in jedem Gewerk." },
   { icon: Clock, title: "Termintreue", text: "Wir planen realistisch und halten uns an das, was wir versprechen. Ihr Zeitplan ist unser Zeitplan." },
-  { icon: Handshake, title: "Ehrlichkeit", text: "Klare Absprachen, faire Angebote und offene Kommunikation – auch dann, wenn es unbequem ist." },
-  { icon: Users, title: "Ein Ansprechpartner", text: "Ein fester Kontakt koordiniert alle Gewerke für Sie – von der ersten Idee bis zur Übergabe." },
+  { icon: Handshake, title: "Ehrlichkeit", text: "Klare Absprachen, faire Angebote und offene Kommunikation, auch dann, wenn es unbequem ist." },
+  { icon: Users, title: "Ein Ansprechpartner", text: "Ein fester Kontakt koordiniert alle Gewerke für Sie, von der ersten Idee bis zur Übergabe." },
   { icon: Ruler, title: "Klare Planung", text: "Durchdachte Abläufe und nachvollziehbare Schritte, damit Ihr Projekt reibungslos läuft." },
   { icon: Sparkles, title: "Saubere Übergabe", text: "Ordentliche Baustelle und ein fertiges Ergebnis, das sich sehen lassen kann." },
 ];
@@ -42,7 +42,7 @@ const promises = [
   "Transparente, unverbindliche Angebote",
   "Sorgfältige Ausführung bis ins Detail",
   "Termintreue und saubere Baustellen",
-  "Ehrliche Beratung – ohne leere Versprechen",
+  "Ehrliche Beratung, ohne leere Versprechen",
 ];
 
 export default function UeberUnsPage() {
@@ -82,11 +82,11 @@ export default function UeberUnsPage() {
               Über uns
             </p>
             <h1 className="mt-3 max-w-3xl font-heading text-4xl font-extrabold uppercase leading-[1.05] sm:text-5xl">
-              Handwerk aus Leidenschaft – für Ergebnisse, die halten
+              Handwerk aus Leidenschaft, für Ergebnisse, die halten
             </h1>
             <p className="mt-6 max-w-2xl text-lg leading-relaxed text-white/80">
               PLAMAR-BAU ist Ihr Bauunternehmen aus Uhingen für Gerüstbau,
-              Sanierung und Ausbau. Wir leben dieses Handwerk – mit dem Anspruch,
+              Sanierung und Ausbau. Wir leben dieses Handwerk, mit dem Anspruch,
               unseren Kunden jeden Tag die bestmögliche Arbeit zu liefern.
             </p>
           </div>
@@ -104,7 +104,7 @@ export default function UeberUnsPage() {
               </h2>
               <div className="mt-6 space-y-5 text-lg leading-relaxed text-slate-700">
                 <p>
-                  Bauen und Sanieren ist für uns weit mehr als ein Beruf – es ist
+                  Bauen und Sanieren ist für uns weit mehr als ein Beruf, es ist
                   eine Berufung. Was uns antreibt, ist der Anspruch, aus jedem
                   Projekt das Beste herauszuholen und unseren Kunden am Ende ein
                   Ergebnis zu übergeben, auf das sie stolz sein können.
@@ -113,7 +113,7 @@ export default function UeberUnsPage() {
                   Vom Gerüst über den Rohbau bis zur schlüsselfertigen Übergabe
                   begleiten wir Ihr Vorhaben mit dem Wissen, das nur aus jahrelanger
                   Erfahrung am Bau entsteht. Wir kennen die Handgriffe, die den
-                  Unterschied machen – und wir wissen, worauf es ankommt, damit
+                  Unterschied machen, und wir wissen, worauf es ankommt, damit
                   eine Sanierung nicht nur gut aussieht, sondern auch dauerhaft
                   hält.
                 </p>
@@ -150,14 +150,14 @@ export default function UeberUnsPage() {
                 <div className="mt-6 space-y-4 leading-relaxed text-white/80">
                   <p>
                     Gutes Handwerk lernt man nicht über Nacht. Es wächst über
-                    Jahre – auf der Baustelle, mit den eigenen Händen, aus
+                    Jahre, auf der Baustelle, mit den eigenen Händen, aus
                     Erfahrung und aus Fehlern, die andere gemacht haben. Genau
                     dieses Wissen bringen wir in jedes Projekt ein.
                   </p>
                   <p>
                     Wir haben uns dem Bauen verschrieben, weil wir sehen wollen,
                     wie aus einer Idee etwas Bleibendes entsteht. Diese
-                    Leidenschaft spüren unsere Kunden – in der Sorgfalt, mit der
+                    Leidenschaft spüren unsere Kunden, in der Sorgfalt, mit der
                     wir arbeiten, und in dem Ergebnis, das am Ende steht.
                   </p>
                 </div>
@@ -201,7 +201,7 @@ export default function UeberUnsPage() {
                 Warum Kunden uns vertrauen
               </h2>
               <p className="mt-4 text-white/75">
-                Diese Grundsätze bestimmen, wie wir arbeiten – bei jedem Projekt,
+                Diese Grundsätze bestimmen, wie wir arbeiten, bei jedem Projekt,
                 für jeden Kunden.
               </p>
             </Reveal>
@@ -238,7 +238,7 @@ export default function UeberUnsPage() {
               </h2>
               <p className="mt-6 text-lg leading-relaxed text-slate-700">
                 Gerüstbau, Sanierung, Elektro, Heizung, Wasser, Sanitär,
-                Innenausbau, Fassade, Dach und Badsanierung – bei uns bekommen Sie
+                Innenausbau, Fassade, Dach und Badsanierung, bei uns bekommen Sie
                 alles aus einer Hand. Statt viele Firmen einzeln zu koordinieren,
                 haben Sie einen Partner, der Ihr Projekt vollständig überblickt
                 und verantwortet.

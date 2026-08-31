@@ -37,7 +37,7 @@ export const services: Service[] = [
     icon: Construction,
     image: "/images/svc-geruestbau.jpg",
     intro: [
-      "Ein standsicheres Gerüst ist die Grundlage für saubere und sichere Arbeiten an Fassade, Dach und Außenwand. Wir stellen das passende Gerüst für Ihr Vorhaben – vom kurzen Reparatureinsatz bis zum kompletten Sanierungsprojekt.",
+      "Ein standsicheres Gerüst ist die Grundlage für saubere und sichere Arbeiten an Fassade, Dach und Außenwand. Wir stellen das passende Gerüst für Ihr Vorhaben, vom kurzen Reparatureinsatz bis zum kompletten Sanierungsprojekt.",
       "Aufbau, Prüfung und Abbau erfolgen fach- und normgerecht, angepasst an Gebäudeform, Höhe und die geplante Standzeit.",
     ],
     steps: [
@@ -62,19 +62,19 @@ export const services: Service[] = [
     ],
     risks: [
       { title: "Unfallgefahr", text: "Fehlende oder improvisierte Absturzsicherung ist ein erhebliches Risiko für Mensch und Material." },
-      { title: "Verzögerungen", text: "Ohne passendes Gerüst stocken Fassade und Dach – Termine verschieben sich." },
+      { title: "Verzögerungen", text: "Ohne passendes Gerüst stocken Fassade und Dach, Termine verschieben sich." },
       { title: "Höhere Kosten", text: "Nachträgliche Anpassungen und verlängerte Standzeiten treiben die Gesamtkosten." },
     ],
     faqs: [
       { q: "Wie lange bleibt das Gerüst stehen?", a: "Die Standzeit richtet sich nach dem Bauablauf. Wir stimmen sie mit Ihnen und den beteiligten Gewerken ab." },
-      { q: "Baut ihr auch für kurze Einsätze auf?", a: "Ja – vom kurzen Reparatureinsatz bis zum kompletten Sanierungsprojekt." },
+      { q: "Baut ihr auch für kurze Einsätze auf?", a: "Ja, vom kurzen Reparatureinsatz bis zum kompletten Sanierungsprojekt." },
       { q: "Ist das Gerüst geprüft?", a: "Ja. Vor der Nutzung wird das Gerüst kontrolliert und für die Arbeiten freigegeben." },
       { q: "Passt das Gerüst an jede Fassade?", a: "Wir passen es an Höhe, Form und Zugänglichkeit Ihres Gebäudes an." },
     ],
     details: [
-      "Der Gerüstbau ist oft der erste sichtbare Schritt einer Sanierung und zugleich die Voraussetzung dafür, dass alle weiteren Arbeiten sicher und in guter Qualität ausgeführt werden können. Ein fachgerecht errichtetes Gerüst schafft stabile Arbeitsebenen, sichere Aufstiege und den notwendigen Seitenschutz – ob an einer niedrigen Garage oder an einem mehrgeschossigen Wohnhaus.",
-      "Wir wählen die Gerüstart passend zu Ihrem Vorhaben: Fassadengerüste für Putz-, Anstrich- und Dämmarbeiten, Arbeitsgerüste für Handwerker verschiedener Gewerke und Schutzgerüste dort, wo Personen oder Bereiche gesichert werden müssen. Dabei berücksichtigen wir Gebäudehöhe, Untergrund, Verankerung und die geplante Standzeit – damit das Gerüst nicht nur standsicher ist, sondern auch effizient genutzt werden kann.",
-      "Weil wir den Gerüstbau mit unseren übrigen Leistungen wie Dach und Fassade kombinieren, sparen Sie Abstimmung und Zeit. Auf- und Abbau, Prüfung und Freigabe kommen aus einer Hand – ohne Schnittstellen zwischen mehreren Firmen und mit einem festen Ansprechpartner für Ihr gesamtes Projekt in Uhingen und der Region.",
+      "Der Gerüstbau ist oft der erste sichtbare Schritt einer Sanierung und zugleich die Voraussetzung dafür, dass alle weiteren Arbeiten sicher und in guter Qualität ausgeführt werden können. Ein fachgerecht errichtetes Gerüst schafft stabile Arbeitsebenen, sichere Aufstiege und den notwendigen Seitenschutz, ob an einer niedrigen Garage oder an einem mehrgeschossigen Wohnhaus.",
+      "Wir wählen die Gerüstart passend zu Ihrem Vorhaben: Fassadengerüste für Putz-, Anstrich- und Dämmarbeiten, Arbeitsgerüste für Handwerker verschiedener Gewerke und Schutzgerüste dort, wo Personen oder Bereiche gesichert werden müssen. Dabei berücksichtigen wir Gebäudehöhe, Untergrund, Verankerung und die geplante Standzeit, damit das Gerüst nicht nur standsicher ist, sondern auch effizient genutzt werden kann.",
+      "Weil wir den Gerüstbau mit unseren übrigen Leistungen wie Dach und Fassade kombinieren, sparen Sie Abstimmung und Zeit. Auf- und Abbau, Prüfung und Freigabe kommen aus einer Hand, ohne Schnittstellen zwischen mehreren Firmen und mit einem festen Ansprechpartner für Ihr gesamtes Projekt in Uhingen und der Region.",
     ],
     gallery: [
       "Fassadengerüst an Ihrem Objekt",
@@ -85,13 +85,13 @@ export const services: Service[] = [
   {
     slug: "sanierung",
     title: "Sanierung von A bis Z",
-    short: "Sanierung A–Z",
-    tagline: "Ihre Sanierung – geplant, koordiniert und umgesetzt",
+    short: "Sanierung A bis Z",
+    tagline: "Ihre Sanierung: geplant, koordiniert, umgesetzt",
     icon: Wrench,
     image: "/images/svc-sanierung.jpg",
     intro: [
       "Ob einzelnes Gewerk oder umfassende Modernisierung: Wir übernehmen Ihre Sanierung von der ersten Bestandsaufnahme bis zur Fertigstellung.",
-      "Dabei koordinieren wir alle beteiligten Handwerke für Sie – Sie haben einen festen Ansprechpartner und ein klar abgestimmtes Ergebnis.",
+      "Dabei koordinieren wir alle beteiligten Handwerke für Sie, Sie haben einen festen Ansprechpartner und ein klar abgestimmtes Ergebnis.",
     ],
     steps: [
       { title: "Bestandsaufnahme", text: "Wir prüfen den Ist-Zustand vor Ort und besprechen Ihre Ziele und Wünsche." },
@@ -109,7 +109,7 @@ export const services: Service[] = [
     ],
     benefits: [
       { title: "Wertsteigerung", text: "Eine gute Sanierung erhöht den Wert und die Attraktivität Ihrer Immobilie." },
-      { title: "Weniger Aufwand für Sie", text: "Wir koordinieren alle Gewerke – Sie müssen nicht mehrere Firmen einzeln steuern." },
+      { title: "Weniger Aufwand für Sie", text: "Wir koordinieren alle Gewerke, Sie müssen nicht mehrere Firmen einzeln steuern." },
       { title: "Planbare Kosten", text: "Klarer Umfang und Zeitplan von Anfang an, ohne böse Überraschungen." },
       { title: "Nachhaltiges Ergebnis", text: "Fachgerecht ausgeführt, damit die Sanierung lange Bestand hat." },
     ],
@@ -122,12 +122,12 @@ export const services: Service[] = [
       { q: "Macht ihr auch nur einzelne Gewerke?", a: "Ja. Wir sanieren einzelne Bereiche ebenso wie ganze Häuser und Wohnungen." },
       { q: "Wie erhalte ich ein Angebot?", a: "Nach einer kurzen Besprechung vor Ort erstellen wir Ihnen ein unverbindliches Angebot mit klarem Umfang." },
       { q: "Wer koordiniert die Handwerker?", a: "Das übernehmen wir. Sie haben einen festen Ansprechpartner über den gesamten Ablauf." },
-      { q: "Kann ich während der Sanierung im Haus bleiben?", a: "Das hängt vom Umfang ab – wir besprechen das ehrlich mit Ihnen bei der Planung." },
+      { q: "Kann ich während der Sanierung im Haus bleiben?", a: "Das hängt vom Umfang ab, wir besprechen das ehrlich mit Ihnen bei der Planung." },
     ],
     details: [
-      "Eine Sanierung bedeutet, ein Gebäude oder einzelne Bereiche wieder in einen einwandfreien, zeitgemäßen Zustand zu bringen. Das kann die Beseitigung konkreter Schäden sein – etwa Feuchtigkeit, Risse oder verschlissene Bauteile – oder eine umfassende Modernisierung, die Wohnkomfort, Optik und Energieverbrauch spürbar verbessert.",
+      "Eine Sanierung bedeutet, ein Gebäude oder einzelne Bereiche wieder in einen einwandfreien, zeitgemäßen Zustand zu bringen. Das kann die Beseitigung konkreter Schäden sein, etwa Feuchtigkeit, Risse oder verschlissene Bauteile, oder eine umfassende Modernisierung, die Wohnkomfort, Optik und Energieverbrauch spürbar verbessert.",
       "Wir beginnen jede Sanierung mit einer ehrlichen Bestandsaufnahme vor Ort. Auf dieser Grundlage planen wir den Umfang, legen die sinnvolle Reihenfolge der Gewerke fest und stimmen einen realistischen Zeit- und Kostenrahmen mit Ihnen ab. So wissen Sie von Anfang an, was gemacht wird, in welcher Reihenfolge und mit welchem Aufwand zu rechnen ist.",
-      "Der große Vorteil: Sie müssen nicht mehrere Firmen einzeln beauftragen und koordinieren. Als Bauunternehmen bündeln wir die nötigen Handwerke und führen sie abgestimmt aus – von kleinen Einzelmaßnahmen bis zur umfassenden Modernisierung. Das spart Zeit, vermeidet Reibungsverluste und sorgt für ein durchgängig sauberes Ergebnis.",
+      "Der große Vorteil: Sie müssen nicht mehrere Firmen einzeln beauftragen und koordinieren. Als Bauunternehmen bündeln wir die nötigen Handwerke und führen sie abgestimmt aus, von kleinen Einzelmaßnahmen bis zur umfassenden Modernisierung. Das spart Zeit, vermeidet Reibungsverluste und sorgt für ein durchgängig sauberes Ergebnis.",
     ],
     gallery: [
       "Vorher-Zustand des Objekts",
@@ -143,7 +143,7 @@ export const services: Service[] = [
     icon: Home,
     image: "/images/svc-komplettsanierung.jpg",
     intro: [
-      "Bei der kompletten Haus- oder Wohnungssanierung übernehmen wir Planung, Ausführung und Koordination – von der Entkernung bis zur schlüsselfertigen Übergabe.",
+      "Bei der kompletten Haus- oder Wohnungssanierung übernehmen wir Planung, Ausführung und Koordination, von der Entkernung bis zur schlüsselfertigen Übergabe.",
       "So müssen Sie nicht viele Firmen einzeln steuern: Wir bündeln alle Gewerke und bringen Ihr Objekt in einen wohnfertigen Zustand.",
     ],
     steps: [
@@ -161,10 +161,10 @@ export const services: Service[] = [
       "Schlüsselfertige Übergabe",
     ],
     benefits: [
-      { title: "Alles aus einer Hand", text: "Ein Partner für alle Gewerke – das spart Zeit, Abstimmung und Nerven." },
+      { title: "Alles aus einer Hand", text: "Ein Partner für alle Gewerke, das spart Zeit, Abstimmung und Nerven." },
       { title: "Deutliche Wertsteigerung", text: "Eine Komplettsanierung hebt Ihr Objekt spürbar auf einen neuen Stand." },
       { title: "Modern & effizient", text: "Zeitgemäße Technik und Ausstattung machen das Wohnen komfortabler." },
-      { title: "Ein klarer Zeitplan", text: "Alle Schritte sind aufeinander abgestimmt – für einen reibungslosen Ablauf." },
+      { title: "Ein klarer Zeitplan", text: "Alle Schritte sind aufeinander abgestimmt, für einen reibungslosen Ablauf." },
     ],
     risks: [
       { title: "Stückwerk wird teurer", text: "Einzeln über Jahre verteilte Arbeiten kosten insgesamt mehr als eine geplante Gesamtsanierung." },
@@ -175,12 +175,12 @@ export const services: Service[] = [
       { q: "Wie lange dauert eine Komplettsanierung?", a: "Das hängt von Größe und Umfang ab. Nach der Bestandsaufnahme nennen wir Ihnen einen realistischen Zeitrahmen." },
       { q: "Übernehmt ihr wirklich alle Gewerke?", a: "Ja. Wir koordinieren und führen die nötigen Handwerke bis zur schlüsselfertigen Übergabe aus." },
       { q: "Kann ich Ausstattung selbst aussuchen?", a: "Selbstverständlich. Wir beraten Sie und setzen Ihre Wünsche um." },
-      { q: "Bekomme ich einen festen Ansprechpartner?", a: "Ja, über den gesamten Ablauf – von der Planung bis zur Übergabe." },
+      { q: "Bekomme ich einen festen Ansprechpartner?", a: "Ja, über den gesamten Ablauf, von der Planung bis zur Übergabe." },
     ],
     details: [
       "Bei einer kompletten Haussanierung wird ein Gebäude von Grund auf erneuert. Häufig steht am Anfang die Entkernung, bei der alte, verschlissene Bauteile entfernt werden. Danach folgen Rohbauarbeiten, die Erneuerung der Haustechnik und der schrittweise Ausbau bis zum bezugsfertigen Zustand. Das Ergebnis ist ein Haus, das technisch und optisch auf einem neuen Stand ist.",
       "Der entscheidende Unterschied zu einer Sanierung in Etappen ist die durchgängige Planung. Wenn alle Gewerke von Beginn an aufeinander abgestimmt sind, greifen Elektro, Heizung, Wasser, Sanitär, Innenausbau, Fassade und Dach sauber ineinander. Das vermeidet doppelte Arbeit, verkürzt die Bauzeit und hält die Kosten planbar.",
-      "Wir übernehmen die komplette Haussanierung als Generalist mit einem festen Ansprechpartner. Sie behalten den Überblick, ohne sich um die Koordination der einzelnen Handwerke kümmern zu müssen – von der ersten Planung bis zur schlüsselfertigen Übergabe Ihres Objekts in Uhingen und Umgebung.",
+      "Wir übernehmen die komplette Haussanierung als Generalist mit einem festen Ansprechpartner. Sie behalten den Überblick, ohne sich um die Koordination der einzelnen Handwerke kümmern zu müssen, von der ersten Planung bis zur schlüsselfertigen Übergabe Ihres Objekts in Uhingen und Umgebung.",
     ],
     gallery: [
       "Objekt vor der Sanierung",
@@ -196,7 +196,7 @@ export const services: Service[] = [
     icon: Zap,
     image: "/images/svc-elektro.jpg",
     intro: [
-      "Wir übernehmen die Elektroinstallation im Rahmen von Neubau, Umbau und Sanierung – von der Leitungsführung bis zur Verteilung.",
+      "Wir übernehmen die Elektroinstallation im Rahmen von Neubau, Umbau und Sanierung, von der Leitungsführung bis zur Verteilung.",
       "Ob einzelne Räume oder das ganze Haus: Wir planen die Elektrik passend zu Ihrem Vorhaben und führen sie fachgerecht aus.",
     ],
     steps: [
@@ -233,7 +233,7 @@ export const services: Service[] = [
     details: [
       "Die Elektroinstallation ist das Nervensystem eines Hauses. Sie versorgt Beleuchtung, Steckdosen, Haushaltsgeräte und moderne Technik zuverlässig mit Strom. Gerade in älteren Gebäuden stößt die vorhandene Elektrik oft an ihre Grenzen: zu wenige Steckdosen, veraltete Leitungen oder eine Verteilung, die den heutigen Anforderungen nicht mehr gerecht wird.",
       "Wir planen die Elektrik passend zu Ihrer Nutzung. Gemeinsam legen wir fest, wo Steckdosen, Schalter und Anschlüsse sinnvoll sind, wie die Leitungen geführt werden und wie die Verteilung aufgebaut sein soll. Anschließend verlegen und verbinden wir alles fachgerecht und prüfen die Installation, bevor wir sie betriebsbereit übergeben.",
-      "Der wirtschaftlichste Zeitpunkt für Elektroarbeiten ist, solange Wände und Böden im Zuge einer Sanierung noch offen sind. Dann lassen sich Leitungen ohne zusätzliches Aufstemmen verlegen. Ob einzelne Räume oder das ganze Haus – wir führen die Elektroinstallation im Rahmen von Neubau, Umbau und Modernisierung aus.",
+      "Der wirtschaftlichste Zeitpunkt für Elektroarbeiten ist, solange Wände und Böden im Zuge einer Sanierung noch offen sind. Dann lassen sich Leitungen ohne zusätzliches Aufstemmen verlegen. Ob einzelne Räume oder das ganze Haus, wir führen die Elektroinstallation im Rahmen von Neubau, Umbau und Modernisierung aus.",
     ],
     gallery: [
       "Leitungsführung im Rohbau",
@@ -273,20 +273,20 @@ export const services: Service[] = [
       { title: "Alles abgestimmt", text: "Heizung, Wasser und Sanitär kommen aus einer Hand und passen zusammen." },
     ],
     risks: [
-      { title: "Wasserschäden", text: "Alte Leitungen können undicht werden – Feuchtigkeit und Folgeschäden drohen." },
+      { title: "Wasserschäden", text: "Alte Leitungen können undicht werden, Feuchtigkeit und Folgeschäden drohen." },
       { title: "Hoher Verbrauch", text: "Veraltete Heizungstechnik verbraucht unnötig viel und treibt die Kosten." },
       { title: "Plötzlicher Ausfall", text: "Fällt die Anlage im Winter aus, wird der Austausch schnell zum Notfall." },
     ],
     faqs: [
-      { q: "Was bedeutet HWS?", a: "HWS steht für Heizung, Wasser und Sanitär – die zentrale Haustechnik, die wir aus einer Hand übernehmen." },
+      { q: "Was bedeutet HWS?", a: "HWS steht für Heizung, Wasser und Sanitär, die zentrale Haustechnik, die wir aus einer Hand übernehmen." },
       { q: "Modernisiert ihr auch bestehende Anlagen?", a: "Ja. Wir erneuern und erweitern Heizungs-, Wasser- und Sanitärtechnik im Bestand." },
-      { q: "Macht ihr auch die Badinstallation?", a: "Ja, die Sanitärinstallation gehört dazu – oft im Rahmen einer Badsanierung." },
+      { q: "Macht ihr auch die Badinstallation?", a: "Ja, die Sanitärinstallation gehört dazu, oft im Rahmen einer Badsanierung." },
       { q: "Wird alles geprüft?", a: "Ja. Vor der Übergabe prüfen wir die Anlagen auf Funktion und Dichtheit." },
     ],
     details: [
-      "HWS steht für Heizung, Wasser und Sanitär – zusammen bilden diese drei Bereiche die zentrale Haustechnik. Sie sorgen dafür, dass es warm ist, dass sauberes Wasser dorthin kommt, wo es gebraucht wird, und dass Bad, Küche und Anschlüsse zuverlässig funktionieren. Wir installieren und modernisieren diese Technik im gesamten Haus – abgestimmt und aus einer Hand.",
+      "HWS steht für Heizung, Wasser und Sanitär, zusammen bilden diese drei Bereiche die zentrale Haustechnik. Sie sorgen dafür, dass es warm ist, dass sauberes Wasser dorthin kommt, wo es gebraucht wird, und dass Bad, Küche und Anschlüsse zuverlässig funktionieren. Wir installieren und modernisieren diese Technik im gesamten Haus, abgestimmt und aus einer Hand.",
       "Bei der Heizung geht es nicht nur um Wärme, sondern auch um Effizienz: Moderne Technik arbeitet sparsamer und senkt die laufenden Kosten. Bei Wasser und Leitungen stehen Dichtheit und Hygiene im Vordergrund, denn alte Leitungen können undicht werden und Folgeschäden verursachen. Im Sanitärbereich sorgen wir für saubere, funktionale Lösungen bis hin zur kompletten Badausstattung.",
-      "Weil Heizung, Wasser und Sanitär eng zusammenhängen, ist es sinnvoll, sie gemeinsam zu planen – besonders im Rahmen einer Bad- oder Haussanierung. Vor der Übergabe prüfen wir alle Anlagen auf Funktion und Dichtheit, damit die Technik zuverlässig und sicher läuft.",
+      "Weil Heizung, Wasser und Sanitär eng zusammenhängen, ist es sinnvoll, sie gemeinsam zu planen, besonders im Rahmen einer Bad- oder Haussanierung. Vor der Übergabe prüfen wir alle Anlagen auf Funktion und Dichtheit, damit die Technik zuverlässig und sicher läuft.",
     ],
     gallery: [
       "Heizungsinstallation",
@@ -303,7 +303,7 @@ export const services: Service[] = [
     image: "/images/svc-innenausbau.jpg",
     intro: [
       "Beim Innenausbau machen wir aus Rohräumen fertige, wohnliche Flächen. Trockenbau, Böden, Türen und Oberflächen fügen sich zu einem stimmigen Ergebnis.",
-      "Wir arbeiten sauber und abgestimmt – auf Wunsch als Teil einer kompletten Sanierung oder als einzelne Leistung.",
+      "Wir arbeiten sauber und abgestimmt, auf Wunsch als Teil einer kompletten Sanierung oder als einzelne Leistung.",
     ],
     steps: [
       { title: "Planung", text: "Wir besprechen Raumaufteilung, Materialien und Oberflächen." },
@@ -320,13 +320,13 @@ export const services: Service[] = [
       "Ausbau von Dachgeschossen",
     ],
     benefits: [
-      { title: "Mehr nutzbarer Raum", text: "Ausgebaute Flächen – etwa im Dachgeschoss – schaffen wertvollen zusätzlichen Wohnraum." },
+      { title: "Mehr nutzbarer Raum", text: "Ausgebaute Flächen, etwa im Dachgeschoss, schaffen wertvollen zusätzlichen Wohnraum." },
       { title: "Besseres Raumklima", text: "Guter Innenausbau mit Dämmung verbessert Wärme- und Schallschutz." },
       { title: "Individuelle Gestaltung", text: "Aufteilung, Böden und Oberflächen ganz nach Ihren Vorstellungen." },
       { title: "Sauberes Ergebnis", text: "Abgestimmte Ausführung sorgt für ein stimmiges Gesamtbild." },
     ],
     risks: [
-      { title: "Ungenutztes Potenzial", text: "Nicht ausgebaute Flächen bleiben verschenkter Wohnraum – Monat für Monat." },
+      { title: "Ungenutztes Potenzial", text: "Nicht ausgebaute Flächen bleiben verschenkter Wohnraum, Monat für Monat." },
       { title: "Energieverlust", text: "Fehlende Innendämmung führt zu Wärmeverlust und höheren Heizkosten." },
       { title: "Wohnkomfort leidet", text: "Provisorische Räume mindern den Komfort und den Eindruck des ganzen Hauses." },
     ],
@@ -334,12 +334,12 @@ export const services: Service[] = [
       { q: "Baut ihr auch Dachgeschosse aus?", a: "Ja. Der Ausbau von Dachgeschossen zu Wohnraum ist ein typischer Teil unseres Innenausbaus." },
       { q: "Macht ihr Trockenbau?", a: "Ja, Wände und Decken im Trockenbau gehören zu unseren Leistungen." },
       { q: "Kann ich Böden und Türen aussuchen?", a: "Selbstverständlich. Wir beraten Sie und bauen Ihre Auswahl ein." },
-      { q: "Nur Innenausbau oder komplett?", a: "Beides – als einzelne Leistung oder als Teil einer Gesamtsanierung." },
+      { q: "Nur Innenausbau oder komplett?", a: "Beides, als einzelne Leistung oder als Teil einer Gesamtsanierung." },
     ],
     details: [
       "Der Innenausbau macht aus einem Rohbau oder entkernten Räumen fertige, wohnliche Flächen. Dazu gehören Trockenbauwände und -decken, die Innendämmung, der Bodenaufbau, Türen sowie die Oberflächen, die dem Raum am Ende sein Gesicht geben. Erst der Innenausbau entscheidet darüber, wie sich ein Haus tatsächlich anfühlt und nutzen lässt.",
-      "Ein besonders lohnender Bereich ist der Ausbau von Dachgeschossen. Mit der richtigen Konstruktion, guter Dämmung und durchdachter Aufteilung entsteht dort wertvoller zusätzlicher Wohnraum – ohne anbauen zu müssen. Auch Schall- und Wärmeschutz lassen sich beim Innenausbau gezielt verbessern, was den Wohnkomfort spürbar erhöht.",
-      "Wir arbeiten sauber, abgestimmt und nach Ihren Vorstellungen – ob als einzelne Leistung oder als Teil einer kompletten Sanierung. Von der Raumaufteilung über Böden und Türen bis zu den Feinarbeiten sorgen wir für ein stimmiges Gesamtbild, das lange Freude macht.",
+      "Ein besonders lohnender Bereich ist der Ausbau von Dachgeschossen. Mit der richtigen Konstruktion, guter Dämmung und durchdachter Aufteilung entsteht dort wertvoller zusätzlicher Wohnraum, ohne anbauen zu müssen. Auch Schall- und Wärmeschutz lassen sich beim Innenausbau gezielt verbessern, was den Wohnkomfort spürbar erhöht.",
+      "Wir arbeiten sauber, abgestimmt und nach Ihren Vorstellungen, ob als einzelne Leistung oder als Teil einer kompletten Sanierung. Von der Raumaufteilung über Böden und Türen bis zu den Feinarbeiten sorgen wir für ein stimmiges Gesamtbild, das lange Freude macht.",
     ],
     gallery: [
       "Trockenbau & Unterkonstruktion",
@@ -379,19 +379,19 @@ export const services: Service[] = [
       { title: "Mögliche Energieeinsparung", text: "Im Zuge der Arbeiten lässt sich der Wärmeschutz sinnvoll verbessern." },
     ],
     risks: [
-      { title: "Feuchtigkeit dringt ein", text: "Risse und schadhafte Stellen lassen Wasser ins Mauerwerk – ein Nährboden für Folgeschäden." },
+      { title: "Feuchtigkeit dringt ein", text: "Risse und schadhafte Stellen lassen Wasser ins Mauerwerk, ein Nährboden für Folgeschäden." },
       { title: "Schäden am Mauerwerk", text: "Unbehandelt breiten sich Schäden aus und die Sanierung wird aufwendiger." },
       { title: "Wertverlust", text: "Eine ungepflegte Fassade drückt sichtbar den Eindruck und den Wert des Objekts." },
     ],
     faqs: [
       { q: "Wann sollte eine Fassade saniert werden?", a: "Spätestens bei sichtbaren Rissen, abblätternden Stellen oder Feuchtigkeit ist Handeln sinnvoll." },
-      { q: "Braucht es dafür ein Gerüst?", a: "In der Regel ja – Gerüstbau bieten wir passend dazu aus einer Hand an." },
+      { q: "Braucht es dafür ein Gerüst?", a: "In der Regel ja, Gerüstbau bieten wir passend dazu aus einer Hand an." },
       { q: "Verbessert das die Energiebilanz?", a: "Im Zuge der Arbeiten lässt sich der Wärmeschutz häufig sinnvoll mitverbessern." },
-      { q: "Wie lange dauern Fassadenarbeiten?", a: "Das hängt von Größe und Zustand ab – wir nennen Ihnen vorab einen realistischen Rahmen." },
+      { q: "Wie lange dauern Fassadenarbeiten?", a: "Das hängt von Größe und Zustand ab, wir nennen Ihnen vorab einen realistischen Rahmen." },
     ],
     details: [
-      "Die Fassade ist die Schutzhülle eines Gebäudes und zugleich seine Visitenkarte. Sie ist Regen, Frost, Hitze und UV-Strahlung dauerhaft ausgesetzt. Mit der Zeit können Risse, abblätternde Stellen oder Feuchtigkeit entstehen – Anzeichen dafür, dass die Fassade Aufmerksamkeit braucht, bevor Schäden ins Mauerwerk vordringen.",
-      "Bei Fassadenarbeiten prüfen wir zunächst den Zustand des Untergrunds und besprechen mit Ihnen das gewünschte Ergebnis. Anschließend bereiten wir die Fläche vor und führen die Arbeiten sauber und fachgerecht aus. Häufig lassen sich im gleichen Zug der Wärmeschutz verbessern und die Optik deutlich aufwerten – zwei Vorteile in einem Arbeitsgang.",
+      "Die Fassade ist die Schutzhülle eines Gebäudes und zugleich seine Visitenkarte. Sie ist Regen, Frost, Hitze und UV-Strahlung dauerhaft ausgesetzt. Mit der Zeit können Risse, abblätternde Stellen oder Feuchtigkeit entstehen, Anzeichen dafür, dass die Fassade Aufmerksamkeit braucht, bevor Schäden ins Mauerwerk vordringen.",
+      "Bei Fassadenarbeiten prüfen wir zunächst den Zustand des Untergrunds und besprechen mit Ihnen das gewünschte Ergebnis. Anschließend bereiten wir die Fläche vor und führen die Arbeiten sauber und fachgerecht aus. Häufig lassen sich im gleichen Zug der Wärmeschutz verbessern und die Optik deutlich aufwerten, zwei Vorteile in einem Arbeitsgang.",
       "Da Fassade, Gerüst und oft auch das Dach zusammenhängen, bieten wir diese Leistungen aus einer Hand an. Das erspart Ihnen die Abstimmung zwischen mehreren Firmen und sorgt für ein einheitliches, gepflegtes Gesamtbild Ihres Gebäudes.",
     ],
     gallery: [
@@ -408,7 +408,7 @@ export const services: Service[] = [
     icon: Layers,
     image: "/images/svc-dach.jpg",
     intro: [
-      "Das Dach schützt das gesamte Gebäude. Im Rahmen von Sanierung und Ausbau übernehmen wir Dacharbeiten – vom Dachstuhl über Unterdeckbahn und Lattung bis zur Eindeckung.",
+      "Das Dach schützt das gesamte Gebäude. Im Rahmen von Sanierung und Ausbau übernehmen wir Dacharbeiten, vom Dachstuhl über Unterdeckbahn und Lattung bis zur Eindeckung.",
       "Wir arbeiten dicht und fachgerecht, damit Ihr Dach dauerhaft schützt.",
     ],
     steps: [
@@ -433,7 +433,7 @@ export const services: Service[] = [
     ],
     risks: [
       { title: "Wasser dringt ein", text: "Undichte Stellen führen zu Feuchtigkeit in Dämmung, Decke und Mauerwerk." },
-      { title: "Schimmel & Fäulnis", text: "Anhaltende Nässe schädigt Holz und Bausubstanz – die Reparatur wird teuer." },
+      { title: "Schimmel & Fäulnis", text: "Anhaltende Nässe schädigt Holz und Bausubstanz, die Reparatur wird teuer." },
       { title: "Wärmeverlust", text: "Ein altes, undichtes Dach lässt wertvolle Heizwärme entweichen." },
     ],
     faqs: [
@@ -443,9 +443,9 @@ export const services: Service[] = [
       { q: "Wie erkenne ich Handlungsbedarf?", a: "Feuchte Flecken, zugige Räume oder beschädigte Ziegel sind deutliche Anzeichen." },
     ],
     details: [
-      "Das Dach schützt das gesamte Gebäude vor Witterung – und ist damit eines der wichtigsten Bauteile überhaupt. Ein dichtes, gut aufgebautes Dach hält Regen, Schnee und Kälte zuverlässig ab. Zeigt es Schwächen, sind schnell auch Dämmung, Decken und Mauerwerk betroffen, weil Feuchtigkeit von oben nach unten wandert.",
+      "Das Dach schützt das gesamte Gebäude vor Witterung, und ist damit eines der wichtigsten Bauteile überhaupt. Ein dichtes, gut aufgebautes Dach hält Regen, Schnee und Kälte zuverlässig ab. Zeigt es Schwächen, sind schnell auch Dämmung, Decken und Mauerwerk betroffen, weil Feuchtigkeit von oben nach unten wandert.",
       "Im Rahmen von Sanierung und Ausbau übernehmen wir die einzelnen Schritte des Dachaufbaus: den Dachstuhl als tragende Konstruktion, die Unterdeckbahn als zusätzliche Schutzebene, die Konterlattung sowie die abschließende Eindeckung. Besonderes Augenmerk legen wir auf Anschlüsse und Details, denn dort entscheidet sich, ob ein Dach dauerhaft dicht bleibt.",
-      "Wer ohnehin am Dach arbeitet, sollte über eine gute Dämmung und einen möglichen Dachausbau nachdenken. Beides lässt sich gut mit den Dacharbeiten verbinden und schafft entweder niedrigere Heizkosten oder zusätzlichen Wohnraum. Das passende Gerüst stellen wir gleich mit – alles aus einer Hand.",
+      "Wer ohnehin am Dach arbeitet, sollte über eine gute Dämmung und einen möglichen Dachausbau nachdenken. Beides lässt sich gut mit den Dacharbeiten verbinden und schafft entweder niedrigere Heizkosten oder zusätzlichen Wohnraum. Das passende Gerüst stellen wir gleich mit, alles aus einer Hand.",
     ],
     gallery: [
       "Dachstuhl / Konstruktion",
@@ -457,11 +457,11 @@ export const services: Service[] = [
     slug: "badsanierung",
     title: "Badsanierung",
     short: "Badsanierung",
-    tagline: "Ihr neues Bad – komplett aus einer Hand",
+    tagline: "Ihr neues Bad, komplett aus einer Hand",
     icon: Bath,
     image: "/images/svc-bad.jpg",
     intro: [
-      "Bei der Badsanierung machen wir aus Ihrem alten Bad einen modernen, funktionalen Raum – von den Fliesen über die Sanitärtechnik bis zur fertigen Ausstattung.",
+      "Bei der Badsanierung machen wir aus Ihrem alten Bad einen modernen, funktionalen Raum, von den Fliesen über die Sanitärtechnik bis zur fertigen Ausstattung.",
       "Alle nötigen Gewerke greifen ineinander, damit Ihr neues Bad sauber und termingerecht fertig wird.",
     ],
     steps: [
@@ -479,26 +479,26 @@ export const services: Service[] = [
       "Fertige, saubere Übergabe",
     ],
     benefits: [
-      { title: "Mehr Komfort", text: "Ein modernes Bad steigert die Wohnqualität spürbar – jeden Tag." },
+      { title: "Mehr Komfort", text: "Ein modernes Bad steigert die Wohnqualität spürbar, jeden Tag." },
       { title: "Barrierearm möglich", text: "Auf Wunsch planen wir Ihr Bad barrierearm und zukunftssicher." },
       { title: "Wertsteigerung", text: "Ein neues Bad zählt zu den lohnendsten Investitionen in eine Immobilie." },
       { title: "Alles aus einer Hand", text: "Sanitär, Fliesen und Ausbau kommen koordiniert von uns." },
     ],
     risks: [
       { title: "Verdeckte Wasserschäden", text: "Undichte Fugen und alte Leitungen führen oft zu unbemerkter Feuchtigkeit hinter den Fliesen." },
-      { title: "Schimmelbildung", text: "Feuchtigkeit im alten Bad begünstigt Schimmel – ein Risiko für Substanz und Gesundheit." },
+      { title: "Schimmelbildung", text: "Feuchtigkeit im alten Bad begünstigt Schimmel, ein Risiko für Substanz und Gesundheit." },
       { title: "Steigende Kosten", text: "Je länger ein Schaden bleibt, desto aufwendiger und teurer wird die Sanierung." },
     ],
     faqs: [
-      { q: "Übernehmt ihr die komplette Badsanierung?", a: "Ja – von Rückbau über Sanitär und Fliesen bis zur fertigen Ausstattung, alles aus einer Hand." },
+      { q: "Übernehmt ihr die komplette Badsanierung?", a: "Ja, von Rückbau über Sanitär und Fliesen bis zur fertigen Ausstattung, alles aus einer Hand." },
       { q: "Ist ein barrierearmes Bad möglich?", a: "Ja. Auf Wunsch planen wir Ihr Bad barrierearm, etwa mit bodengleicher Dusche." },
-      { q: "Wie lange dauert eine Badsanierung?", a: "Je nach Größe und Umfang – nach der Planung nennen wir Ihnen einen realistischen Zeitrahmen." },
+      { q: "Wie lange dauert eine Badsanierung?", a: "Je nach Größe und Umfang, nach der Planung nennen wir Ihnen einen realistischen Zeitrahmen." },
       { q: "Kann ich Fliesen und Ausstattung wählen?", a: "Selbstverständlich. Wir beraten Sie und setzen Ihre Auswahl um." },
     ],
     details: [
-      "Das Bad gehört zu den am intensivsten genutzten Räumen eines Hauses – und altert entsprechend. Bei einer Badsanierung erneuern wir es von Grund auf: von Fliesen und Oberflächen über die Sanitärtechnik bis zur kompletten Ausstattung. Das Ergebnis ist ein moderner, funktionaler Raum, der zu Ihrem Alltag passt.",
+      "Das Bad gehört zu den am intensivsten genutzten Räumen eines Hauses, und altert entsprechend. Bei einer Badsanierung erneuern wir es von Grund auf: von Fliesen und Oberflächen über die Sanitärtechnik bis zur kompletten Ausstattung. Das Ergebnis ist ein moderner, funktionaler Raum, der zu Ihrem Alltag passt.",
       "Am Anfang steht die Planung: Aufteilung, Ausstattung und Materialien legen wir gemeinsam mit Ihnen fest. Danach folgen der Rückbau des alten Bades, die fachgerechte Installation von Sanitär und Leitungen sowie die Fliesen- und Oberflächenarbeiten. Weil hinter den Fliesen oft alte Leitungen und verdeckte Feuchtigkeit stecken, ist eine Sanierung auch die Gelegenheit, solche Schwachstellen dauerhaft zu beheben.",
-      "Auf Wunsch planen wir Ihr Bad barrierearm – etwa mit einer bodengleichen Dusche – und damit zukunftssicher. Da alle nötigen Gewerke bei uns aus einer Hand kommen, greift die Badsanierung reibungslos ineinander und wird sauber und termingerecht fertig.",
+      "Auf Wunsch planen wir Ihr Bad barrierearm, etwa mit einer bodengleichen Dusche, und damit zukunftssicher. Da alle nötigen Gewerke bei uns aus einer Hand kommen, greift die Badsanierung reibungslos ineinander und wird sauber und termingerecht fertig.",
     ],
     gallery: [
       "Bad vor der Sanierung",

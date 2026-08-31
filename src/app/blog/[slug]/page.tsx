@@ -182,7 +182,7 @@ export default async function BlogPostPage({ params }: Params) {
                 </div>
               )}
 
-              {/* FAQ – dropdowns */}
+              {/* FAQ, dropdowns */}
               <div className="mt-12">
                 <h2 className="font-heading text-2xl font-bold text-brand-dark">
                   Häufige Fragen
@@ -220,7 +220,7 @@ export default async function BlogPostPage({ params }: Params) {
                   </h3>
                   <p className="mt-1.5 leading-relaxed text-slate-600">
                     Wir übernehmen Gerüstbau, Sanierung, Elektro, HWS,
-                    Innenausbau, Fassade, Dach und Badsanierung – auf Wunsch
+                    Innenausbau, Fassade, Dach und Badsanierung, auf Wunsch
                     alles koordiniert aus einer Hand. Fragen zu diesem Thema? Wir
                     beraten Sie gern.
                   </p>
