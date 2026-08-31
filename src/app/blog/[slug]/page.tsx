@@ -51,19 +51,47 @@ export default async function BlogPostPage({ params }: Params) {
   const { prev, next } = getPrevNext(slug);
   const related = getRelated(slug, 3);
 
+  const postUrl = `${company.url}/blog/${post.slug}`;
   const jsonLd = {
     "@context": "https://schema.org",
     "@graph": [
       {
         "@type": "BlogPosting",
+        "@id": `${postUrl}#article`,
         headline: post.title,
         description: post.excerpt,
-        image: post.image,
+        image: `${company.url}${post.image}`,
         datePublished: post.date,
+        dateModified: post.date,
+        inLanguage: "de-DE",
+        mainEntityOfPage: postUrl,
+        url: postUrl,
         articleSection: post.category,
         keywords: post.tags.join(", "),
-        author: { "@type": "Organization", name: company.legalName },
-        publisher: { "@type": "Organization", name: company.legalName },
+        author: {
+          "@type": "Organization",
+          name: "PLAMAR-BAU",
+          "@id": `${company.url}/#organization`,
+        },
+        publisher: {
+          "@type": "Organization",
+          name: "PLAMAR-BAU",
+          "@id": `${company.url}/#organization`,
+          logo: { "@type": "ImageObject", url: `${company.url}/icon.svg` },
+        },
+      },
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Startseite", item: company.url },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: "Blog",
+            item: `${company.url}/blog`,
+          },
+          { "@type": "ListItem", position: 3, name: post.title, item: postUrl },
+        ],
       },
       {
         "@type": "FAQPage",

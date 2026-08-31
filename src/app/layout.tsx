@@ -3,6 +3,7 @@ import { Poppins, Lato } from "next/font/google";
 import "./globals.css";
 import CookieConsent from "@/components/CookieConsent";
 import { company } from "@/lib/site";
+import { services } from "@/lib/services";
 
 const poppins = Poppins({
   variable: "--font-poppins",
@@ -100,6 +101,21 @@ const orgJsonLd = {
     "Dach",
     "Badsanierung",
   ],
+  hasOfferCatalog: {
+    "@type": "OfferCatalog",
+    name: "Leistungen von PLAMAR-BAU",
+    itemListElement: services.map((s) => ({
+      "@type": "Offer",
+      itemOffered: {
+        "@type": "Service",
+        name: s.title,
+        description: s.tagline,
+        url: `${company.url}/leistungen/${s.slug}`,
+        provider: { "@id": `${company.url}/#organization` },
+        areaServed: company.region,
+      },
+    })),
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

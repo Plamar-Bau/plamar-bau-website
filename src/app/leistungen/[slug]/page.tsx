@@ -43,7 +43,7 @@ export default async function ServicePage({ params }: Params) {
   const Icon = service.icon;
   const others = services.filter((s) => s.slug !== service.slug);
 
-  // FAQ-Structured-Data (JSON-LD) für Suchmaschinen
+  // Structured Data (JSON-LD) für klassische Suche und KI-Suche
   const faqJsonLd = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -54,8 +54,51 @@ export default async function ServicePage({ params }: Params) {
     })),
   };
 
+  const serviceJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: service.title,
+    serviceType: service.title,
+    description: service.tagline,
+    url: `${company.url}/leistungen/${service.slug}`,
+    provider: {
+      "@type": "GeneralContractor",
+      "@id": `${company.url}/#organization`,
+      name: "PLAMAR-BAU",
+    },
+    areaServed: company.areasServed.map((name) => ({ "@type": "City", name })),
+  };
+
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Startseite", item: company.url },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Leistungen",
+        item: `${company.url}/#leistungen`,
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: service.title,
+        item: `${company.url}/leistungen/${service.slug}`,
+      },
+    ],
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
