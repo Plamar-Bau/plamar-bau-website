@@ -50,7 +50,7 @@ const cards = [
 
 export default function ServiceHighlights() {
   return (
-    <section className="relative z-10 mt-0 pb-8 sm:-mt-8">
+    <section className="relative z-10 mt-6 pb-8 sm:-mt-8">
       <div className="mx-auto max-w-7xl px-6">
         <div className="grid gap-6 md:grid-cols-3">
           {cards.map((c, i) => (
