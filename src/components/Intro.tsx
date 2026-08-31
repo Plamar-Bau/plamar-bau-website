@@ -20,16 +20,18 @@ export default function Intro() {
               Ihr Bauunternehmen aus Uhingen
             </h2>
             <p className="mt-6 leading-relaxed text-slate-600">
-              PLAMAR Bauunternehmung UG ist Ihr Partner rund um Neubau,
-              Sanierung und Ausbau. Ob einzelnes Gewerk oder komplette
-              Haussanierung – wir bringen die Handwerke zusammen, die Ihr
-              Projekt braucht, und koordinieren sie zu einem sauberen Ergebnis.
+              PLAMAR Bauunternehmung UG übernimmt Neubau, Sanierung und Ausbau
+              in Uhingen und Umgebung. Ob es um ein einzelnes Gewerk geht oder
+              um eine komplette Haussanierung: Wir holen die passenden Handwerke
+              zusammen und stimmen sie so ab, dass am Ende ein sauberes Ergebnis
+              steht.
             </p>
             <p className="mt-4 leading-relaxed text-slate-600">
               Vom Gerüst über Rohbau, Elektro, Heizung, Wasser und Sanitär bis
-              hin zu Innenausbau, Fassade, Dach und Badsanierung erhalten Sie
-              alle Leistungen aus einer Hand – mit klaren Absprachen und einem
-              festen Ansprechpartner von Anfang bis Übergabe.
+              zu Innenausbau, Fassade, Dach und Badsanierung kommen alle
+              Leistungen von einem Betrieb. Dazu gibt es klare Absprachen und
+              einen festen Ansprechpartner, von der ersten Besprechung bis zur
+              Übergabe.
             </p>
           </Reveal>
 

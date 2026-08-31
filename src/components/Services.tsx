@@ -15,9 +15,9 @@ export default function Services() {
             Alle Gewerke aus einer Hand
           </h2>
           <p className="mt-4 text-slate-600">
-            Von der Baustelleneinrichtung bis zur schlüsselfertigen Übergabe –
-            das leistet PLAMAR für Ihr Projekt. Klicken Sie für Details zum
-            jeweiligen Ablauf.
+            Von der Baustelleneinrichtung bis zur schlüsselfertigen Übergabe:
+            Das übernimmt PLAMAR für Ihr Projekt. Für den genauen Ablauf klicken
+            Sie auf die jeweilige Leistung.
           </p>
         </Reveal>
 

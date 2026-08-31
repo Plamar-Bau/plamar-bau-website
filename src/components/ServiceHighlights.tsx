@@ -15,7 +15,7 @@ const cards = [
       "Kurzfristige Bereitstellung",
       "Für Neubau & Sanierung",
     ],
-    text: "Standsichere Gerüste für Fassade, Dach und Sanierung – fachgerecht aufgebaut und geprüft.",
+    text: "Standsichere Gerüste für Fassade, Dach und Sanierung. Fachgerecht aufgebaut und vor der Nutzung geprüft.",
   },
   {
     icon: Home,
@@ -29,7 +29,7 @@ const cards = [
       "Ein Ansprechpartner",
       "Schlüsselfertige Übergabe",
     ],
-    text: "Komplette Haus- und Wohnungssanierung – wir übernehmen Planung, Ausführung und Koordination.",
+    text: "Komplette Haus- und Wohnungssanierung. Planung, Ausführung und Koordination laufen bei uns zusammen.",
     featured: true,
   },
   {
@@ -44,7 +44,7 @@ const cards = [
       "Modernisierung",
       "Bad komplett",
     ],
-    text: "Heizung, Wasser und Sanitär – zuverlässige Installation und Modernisierung im gesamten Haus.",
+    text: "Heizung, Wasser und Sanitär: Installation und Modernisierung im ganzen Haus, von der neuen Leitung bis zum fertigen Bad.",
   },
 ];
 

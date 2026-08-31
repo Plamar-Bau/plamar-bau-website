@@ -7,7 +7,7 @@ const infoItems = [
   { icon: Phone, label: "Telefon", value: company.phone, href: company.phoneHref },
   { icon: Mail, label: "E-Mail", value: company.email, href: company.emailHref },
   { icon: MapPin, label: "Adresse", value: `${company.street}, ${company.city}`, href: undefined },
-  { icon: Clock, label: "Erreichbarkeit", value: "Mo–Fr nach Vereinbarung", href: undefined },
+  { icon: Clock, label: "Erreichbarkeit", value: "Mo. bis Fr. nach Vereinbarung", href: undefined },
 ];
 
 export default function Contact() {

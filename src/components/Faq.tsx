@@ -6,7 +6,7 @@ import { Plus, Minus } from "lucide-react";
 const faqs = [
   {
     q: "Welche Leistungen bietet PLAMAR an?",
-    a: "Wir übernehmen Gerüstbau, Sanierungen von A bis Z, komplette Haussanierungen, Elektroinstallationen, Heizung/Wasser/Sanitär (HWS), Innenausbau, Fassade, Dach und Badsanierung – auf Wunsch alles koordiniert aus einer Hand.",
+    a: "Wir übernehmen Gerüstbau, Sanierungen von A bis Z, komplette Haussanierungen, Elektroinstallationen, Heizung/Wasser/Sanitär (HWS), Innenausbau, Fassade, Dach und Badsanierung. Auf Wunsch koordinieren wir alles aus einer Hand.",
   },
   {
     q: "Übernehmen Sie auch komplette Sanierungen?",
@@ -26,7 +26,7 @@ const faqs = [
   },
   {
     q: "Stellen Sie auch nur das Gerüst?",
-    a: "Selbstverständlich. Gerüstbau bieten wir sowohl als Einzelleistung als auch im Rahmen einer Sanierung an – normgerecht auf- und abgebaut.",
+    a: "Selbstverständlich. Gerüstbau bieten wir sowohl als Einzelleistung als auch im Rahmen einer Sanierung an. Auf- und Abbau erfolgen normgerecht.",
   },
 ];
 

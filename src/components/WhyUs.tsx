@@ -10,7 +10,7 @@ const pillars = [
   {
     icon: Handshake,
     title: "Alles koordiniert",
-    text: "Wir steuern alle Gewerke – Sie haben einen Ansprechpartner.",
+    text: "Wir steuern alle Gewerke. Sie haben einen Ansprechpartner.",
   },
   {
     icon: Ruler,

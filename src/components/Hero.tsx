@@ -36,9 +36,10 @@ export default function Hero() {
 
           <p className="mt-4 max-w-xl text-[15px] leading-relaxed text-white/85 sm:mt-5 sm:max-w-2xl sm:text-lg">
             PLAMAR Bauunternehmung UG aus Uhingen begleitet Ihr Projekt vom
-            Gerüst bis zur schlüsselfertigen Übergabe – Rohbau, Sanierung,
-            Elektro, Heizung, Wasser, Sanitär, Innenausbau, Fassade und Dach.
-            Alles koordiniert, alles aus einer Hand.
+            Gerüst bis zur schlüsselfertigen Übergabe. Dazu gehören Rohbau,
+            Sanierung, Elektro, Heizung, Wasser, Sanitär, Innenausbau, Fassade
+            und Dach. Sie koordinieren nicht mehrere Firmen, sondern haben alles
+            bei uns aus einer Hand.
           </p>
 
           <ul className="mt-5 grid grid-cols-1 gap-2.5 sm:mt-6 sm:flex sm:flex-wrap sm:gap-x-6 sm:gap-y-2">

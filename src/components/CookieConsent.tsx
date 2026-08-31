@@ -129,8 +129,8 @@ export default function CookieConsent() {
           {!showSettings ? (
             <p className="text-sm leading-relaxed text-slate-600">
               Wir verwenden Cookies, damit diese Website zuverlässig
-              funktioniert. Optionale Cookies – etwa für Statistik oder
-              Marketing – setzen wir nur mit Ihrer Zustimmung. Weitere
+              funktioniert. Optionale Cookies (etwa für Statistik oder
+              Marketing) setzen wir nur mit Ihrer Zustimmung. Weitere
               Informationen finden Sie in unserer{" "}
               <Link
                 href="/datenschutz"

@@ -8,8 +8,8 @@ import { services } from "@/lib/services";
 const timeframes = [
   "So schnell wie möglich",
   "Innerhalb von 1 Monat",
-  "In 1–3 Monaten",
-  "In 3–6 Monaten",
+  "In 1 bis 3 Monaten",
+  "In 3 bis 6 Monaten",
   "Später / noch flexibel",
   "Erst einmal nur informieren",
 ];
@@ -164,8 +164,8 @@ export default function ContactForm() {
             className="w-full rounded-xl border border-line bg-white px-4 py-3 text-slate-800 outline-none transition focus:border-brand focus:ring-2 focus:ring-brand/20"
           >
             <option value="">Bitte wählen …</option>
-            <option value="Gesamtprojekt – alles aus einer Hand">
-              Gesamtprojekt – alles aus einer Hand
+            <option value="Gesamtprojekt (alles aus einer Hand)">
+              Gesamtprojekt (alles aus einer Hand)
             </option>
             {services.map((s) => (
               <option key={s.slug} value={s.short}>
@@ -224,7 +224,7 @@ export default function ContactForm() {
           Fotos / Dateien auswählen
         </button>
         <p className="mt-1.5 text-xs text-muted">
-          Bilder (JPG, PNG …), PDF oder Word – max. {MAX_FILES} Dateien, 4 MB
+          Bilder (JPG, PNG …), PDF oder Word. Max. {MAX_FILES} Dateien, 4 MB
           gesamt.
         </p>
 

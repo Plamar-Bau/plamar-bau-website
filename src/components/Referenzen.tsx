@@ -4,17 +4,17 @@ const projects = [
   {
     src: "/images/ref-work-1.jpg",
     label: "Rohbau",
-    caption: "Präzise Arbeit auf der Baustelle",
+    caption: "Sauber gemauerter Rohbau",
   },
   {
     src: "/images/ref-work-2.jpg",
     label: "Sanierung",
-    caption: "Modernisierung im Einsatz",
+    caption: "Modernisierung eines Altbaus",
   },
   {
     src: "/images/ref-work-3.jpg",
     label: "Bad & Fliesen",
-    caption: "Fliesenarbeiten im Detail",
+    caption: "Frisch verlegte Fliesen im Bad",
   },
   {
     src: "/images/ref-work-4.jpg",
@@ -24,12 +24,12 @@ const projects = [
   {
     src: "/images/ref-work-5.jpg",
     label: "Fassade",
-    caption: "Saubere Fassadenflächen",
+    caption: "Neu verputzte Fassade",
   },
   {
     src: "/images/ref-work-6.jpg",
     label: "Fassade im Bestand",
-    caption: "Arbeiten an bestehenden Gebäuden",
+    caption: "Fassade an einem Bestandsgebäude",
   },
 ];
 
@@ -45,8 +45,9 @@ export default function Referenzen() {
             Einblicke in unsere Arbeit
           </h2>
           <p className="mt-4 text-slate-600">
-            Vom Rohbau über Dämmung und Fassade bis zu Fliesen und Innenausbau –
-            Handwerk mit Sorgfalt in jedem Detail.
+            Vom Rohbau über Dämmung und Fassade bis zu Fliesen und Innenausbau.
+            Wir arbeiten sorgfältig, auch dort, wo man es später nicht mehr
+            sieht.
           </p>
         </Reveal>
 
@@ -56,7 +57,7 @@ export default function Referenzen() {
               <figure className="group relative overflow-hidden rounded-2xl shadow-[0_16px_44px_rgba(9,51,101,0.12)]">
                 <img
                   src={p.src}
-                  alt={`${p.label} – ${p.caption}`}
+                  alt={`${p.label}: ${p.caption}`}
                   loading="lazy"
                   className="aspect-[4/5] w-full object-cover transition duration-500 group-hover:scale-105"
                 />

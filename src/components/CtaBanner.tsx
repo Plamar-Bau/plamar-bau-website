@@ -13,7 +13,7 @@ export default function CtaBanner() {
             Rufen Sie PLAMAR an: {company.phone}
           </h2>
           <p className="mt-1 text-brand-darker/80">
-            Oder schreiben Sie uns – wir melden uns zeitnah zurück.
+            Oder schreiben Sie uns. Wir melden uns zeitnah zurück.
           </p>
         </div>
         <a

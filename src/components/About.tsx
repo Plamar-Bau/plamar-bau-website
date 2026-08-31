@@ -25,7 +25,8 @@ export default function About() {
                 </p>
                 <p className="mt-4 max-w-sm text-white/75">
                   Von der Baustelleneinrichtung bis zur Übergabe koordinieren
-                  wir Ihr Projekt vollständig – klar, sauber und verlässlich.
+                  wir Ihr Projekt vollständig und halten Sie bei jedem Schritt
+                  auf dem Laufenden.
                 </p>
                 <div className="mt-8 grid grid-cols-1 gap-3 border-t border-white/10 pt-6 text-sm text-white/80 sm:grid-cols-2">
                   <div>
@@ -53,17 +54,17 @@ export default function About() {
               Spezialisiert auf Sanierung & Komplettausbau
             </h2>
             <p className="mt-6 leading-relaxed text-slate-600">
-              PLAMAR Bauunternehmung UG (haftungsbeschränkt) mit Sitz in Uhingen
-              steht für handwerkliche Bauleistungen rund um Sanierung, Ausbau
-              und Modernisierung. Wir verstehen uns als Generalist, der die
-              nötigen Gewerke bündelt und Ihr Vorhaben von Anfang bis Ende
-              begleitet.
+              PLAMAR Bauunternehmung UG (haftungsbeschränkt) sitzt in Uhingen
+              und übernimmt handwerkliche Bauleistungen rund um Sanierung,
+              Ausbau und Modernisierung. Wir arbeiten als Generalist: Wir
+              bündeln die nötigen Gewerke und begleiten Ihr Vorhaben von Anfang
+              bis Ende.
             </p>
             <p className="mt-4 leading-relaxed text-slate-600">
               Statt viele Firmen einzeln zu koordinieren, haben Sie bei uns einen
               festen Ansprechpartner für Gerüstbau, Elektro, HWS-Installationen,
-              Innenausbau, Fassade, Dach und Badsanierung – klar abgestimmt und
-              zuverlässig ausgeführt.
+              Innenausbau, Fassade, Dach und Badsanierung. Alles wird klar
+              abgestimmt und zuverlässig ausgeführt.
             </p>
             <a
               href="#kontakt"

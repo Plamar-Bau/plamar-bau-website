@@ -23,8 +23,8 @@ export default function Footer() {
               PLA<span className="text-accent">MAR</span>-BAU
             </span>
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-white/70">
-              {company.legalName} – Ihr Partner für Gerüstbau, Sanierung und
-              Komplettausbau in Uhingen und der Region.
+              {company.legalName} aus Uhingen. Wir übernehmen Gerüstbau,
+              Sanierung und Komplettausbau in der Region Göppingen.
             </p>
           </div>
 
